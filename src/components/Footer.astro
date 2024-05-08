@@ -1,0 +1,32 @@
+---
+import Container from "./Container.astro"
+---
+
+<style>
+  span[role="img"] {
+    color: transparent;
+    text-shadow: 0 0 0 #000;
+  }
+</style>
+<footer class="bg-lime bg-fixed bg-bottom text-black">
+  <Container>
+    <div class="py-6">
+      <div class="flex flex-col items-center justify-between md:flex-row">
+        <div class="flex items-center space-x-3 rtl:space-x-reverse">
+          <span role="img" class="text-3xl">🤖</span>&nbsp;Generative AI Tour
+          2024
+        </div>
+        <div class="flex mt-4 md:m-0">
+          <div class="-mx-4">
+            &copy; <span id="currentYear"></span> AWS UG 🇮🇩
+          </div>
+        </div>
+      </div>
+    </div>
+  </Container>
+</footer>
+
+<script is:inline>
+  const year = new Date().getFullYear()
+  document.getElementById("currentYear").innerHTML = `${year}`
+</script>
