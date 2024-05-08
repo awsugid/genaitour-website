@@ -11,6 +11,10 @@
 printf "Removing old files...\n"
 rm -rf public/*
 
+# Build sites
+printf "Building sites...\n"
+npm run build
+
 # Copy new files
 printf "Copying new files...\n"
 cp -r dist/* public/
