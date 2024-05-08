@@ -13,4 +13,4 @@ rm -rf public/*
 
 # Copy new files
 printf "Copying new files...\n"
-cp -r src/* public/
+cp -r dist/* public/
