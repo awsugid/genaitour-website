@@ -2,7 +2,8 @@
     "schedules":
         [
         {
-            "id": "01 Juni",
+            "id": "22 Juni",
+            "confirmed": false,
             "hid": "accordion-open-heading-1",
             "bid": "accordion-open-body-1",
             "target": "#accordion-open-body-1",
@@ -10,7 +11,8 @@
             "description": "Kota pertama dari GenAI Tour 2024 ini. Medan adalah kota terbesar ke-4 di Indonesia dan merupakan salah satu kota terbesar di luar Pulau Jawa. Terletak di pulau Sumatera, kota ini memiliki berbagai macam kuliner yang lezat dan tempat wisata yang menarik."
         },
         {
-            "id": "02 Juli",
+            "id": "06 Juli",
+            "confirmed": false,
             "hid": "accordion-open-heading-2",
             "bid": "accordion-open-body-2",
             "target": "#accordion-open-body-2",
@@ -18,7 +20,8 @@
             "description": "Jakarta adalah ibukota Indonesia dan merupakan kota terbesar di Indonesia. Kota ini memiliki beragam tempat wisata, kuliner, dan pusat perbelanjaan yang menarik. Jakarta juga merupakan pusat pemerintahan, bisnis, dan pendidikan di Indonesia."
         },
         {
-            "id": "03 Agustus",
+            "id": "20 Juli",
+            "confirmed": false,
             "hid": "accordion-open-heading-3",
             "bid": "accordion-open-body-3",
             "target": "#accordion-open-body-3",
@@ -26,7 +29,8 @@
             "description": "Bandung memiliki julukan Kota Kembang dan Kota Mode. Kota ini terkenal dengan keindahan alamnya, kuliner yang lezat, dan pusat perbelanjaan yang menarik. Bandung juga merupakan kota pendidikan dan budaya di Indonesia."
         },
         {
-            "id": "04 September",
+            "id": "10 Agustus",
+            "confirmed": false,
             "hid": "accordion-open-heading-4",
             "bid": "accordion-open-body-4",
             "target": "#accordion-open-body-4",
@@ -34,28 +38,40 @@
             "description": "Jogjakarta memiliki keunikan budaya dan sejarah yang kaya. Kota ini terkenal dengan keraton, candi, dan kuliner tradisionalnya. Jogjakarta juga merupakan kota pelajar dan pariwisata di Indonesia."
         },
         {
-            "id": "05 Oktober",
+            "id": "24 Agustus",
+            "confirmed": false,
             "hid": "accordion-open-heading-5",
             "bid": "accordion-open-body-5",
             "target": "#accordion-open-body-5",
-            "title": "Malang",
-            "description": "Kota yang menarik untuk dikunjungi. Malang memiliki berbagai macam tempat wisata, kuliner, dan kegiatan seru yang bisa dinikmati. Kota ini juga terkenal dengan udaranya yang sejuk dan pemandangan alamnya yang indah."
-        },
-        {
-            "id": "06 Nopember",
-            "hid": "accordion-open-heading-6",
-            "bid": "accordion-open-body-6",
-            "target": "#accordion-open-body-6",
             "title": "Surabaya",
             "description": "Kota yang dikenal dengan sebutan Kota Pahlawan. Surabaya memiliki berbagai macam tempat wisata, kuliner, dan kegiatan seru yang bisa dinikmati. Kota ini juga merupakan pusat bisnis dan perdagangan di Indonesia."
         },
         {
-            "id": "07 Desember",
+            "id": "07 September",
+            "confirmed": false,
             "hid": "accordion-open-heading-6",
             "bid": "accordion-open-body-6",
             "target": "#accordion-open-body-6",
+            "title": "Malang",
+            "description": "Kota yang menarik untuk dikunjungi. Malang memiliki berbagai macam tempat wisata, kuliner, dan kegiatan seru yang bisa dinikmati. Kota ini juga terkenal dengan udaranya yang sejuk dan pemandangan alamnya yang indah."
+        },
+        {
+            "id": "21 September",
+            "confirmed": false,
+            "hid": "accordion-open-heading-7",
+            "bid": "accordion-open-body-7",
+            "target": "#accordion-open-body-7",
             "title": "Bali",
             "description": "Pulau Dewata yang terkenal dengan keindahan alamnya. Bali memiliki berbagai macam tempat wisata, kuliner, dan kegiatan seru yang bisa dinikmati. Pulau ini juga merupakan destinasi wisata terpopuler di Indonesia."
+        },
+        {
+            "id": "05 Oktober",
+            "confirmed": false,
+            "hid": "accordion-open-heading-8",
+            "bid": "accordion-open-body-8",
+            "target": "#accordion-open-body-8",
+            "title": "Makassar",
+            "description": "Jika ingin menikmati keindahan alam dan kuliner khas Sulawesi Selatan, maka Makassar adalah tempat yang tepat. Kota ini memiliki berbagai macam tempat wisata, kuliner, dan kegiatan seru yang bisa dinikmati."
         }
     ]
 }
