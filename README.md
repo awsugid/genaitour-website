@@ -59,6 +59,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 - [x] Footer
 - [x] Jadwal dengan tanggal tentative
 - [ ] Daftar -> ke Google docs?
-- [ ] Form kontak
-- [ ] Jadi sponsor (contact us)
-- [ ] Favicon
+- ~[ ] Form kontak~
+- [ ] Kontak via email
+- [ ] Halaman Sponsor
+- [x] Favicon
