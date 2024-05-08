@@ -5,14 +5,14 @@
             "title": "Co-Founder",
             "name": "John Smith",
             "description": "10+ tahun pengalaman dalam pemrograman. Keahlian dalam Teknologi Web dan Pengembangan Perangkat Lunak",
-            "profile": "/speaker/c1.png",
+            "profile": "/speakers/c1.png",
             "link": "/"
         },
         {
             "title": "Director of Operations",
             "name": "Jane Doe",
             "description": "7+ tahun pengalaman dalam manajemen proyek dan kepemimpinan tim. Keterampilan organisasi dan komunikasi yang kuat",
-            "profile": "/speaker/c2.png",
+            "profile": "/speakers/c2.png",
             "link": "/"
         },
 
@@ -20,7 +20,7 @@
             "title": "Developer Advocate",
             "name": "Michael Brown",
             "description": "12+ tahun pengalaman dalam membangun alat pengembang dan API. Bersemangat tentang open-source dan membangun komunitas",
-            "profile": "/speaker/c3.png",
+            "profile": "/speakers/c3.png",
             "link": "/"
         }
 
