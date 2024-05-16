@@ -7,4 +7,7 @@ export default defineConfig({
   integrations: [tailwind()],
   publicDir: './static',
   outDir: './public',
+  server: {
+    port: parseInt(process.env.PORT) || 4321
+  }
 });
