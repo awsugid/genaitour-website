@@ -4,7 +4,7 @@ import speakerData from "./Data/speaker.json"
 ---
 
 <Container>
-  <div class="relative flex flex-col items-center md:flex-row">
+  <div class="relative flex flex-col items-center md:flex-row" id="speaker">
     <div class="row items-center py-5 md:pr-14 md:w-6/12 md:py-8">
       <div class="text-center md:text-left space-y-3 bg-lime">
         <h2 class="text-4xl font-medium leading-none sm:text-6xl">
@@ -31,12 +31,12 @@ import speakerData from "./Data/speaker.json"
               <div class="flex-col justify-start items-start gap-7 flex">
                 <div class="self-stretch justify-start items-start inline-flex">
                   <div class="grow shrink basis-0 justify-start items-center gap-8 flex">
-                    <div class="h-[102.82px] left-0 top-0 relative">
-                      <img src={profile} alt={name} />
+                    <div class="left-0 top-0 relative">
+                      <img src={profile} alt={name} style="border-radius:50%;" />
                     </div>
                     <div class="flex-col justify-end items-start inline-flex">
                       <div class="text-xl font-medium">{name}</div>
-                      <div class="text-lg font-normal">{title}</div>
+                      <div class="text-md font-normal">{title}</div>
                     </div>
                   </div>
                   <a class="top-0 right-0" href={link}>

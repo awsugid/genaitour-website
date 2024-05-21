@@ -2,26 +2,83 @@
     "speakers":
     [
         {
-            "title": "Co-Founder",
-            "name": "John Smith",
-            "description": "10+ tahun pengalaman dalam pemrograman. Keahlian dalam Teknologi Web dan Pengembangan Perangkat Lunak",
-            "profile": "/speakers/c1.png",
-            "link": "/"
+            "title": "Principal Developer Advocate",
+            "name": "Donnie Prokoso",
+            "description": "Software engineer, mengaku barista, dan café racer enthusiast.",
+            "profile": "/speakers/donnie-prakoso.jpg",
+            "link": "https://www.linkedin.com/in/donnieprakoso/",
+            "cities": "Jakarta, Bali"
         },
         {
-            "title": "Director of Operations",
-            "name": "Jane Doe",
-            "description": "7+ tahun pengalaman dalam manajemen proyek dan kepemimpinan tim. Keterampilan organisasi dan komunikasi yang kuat",
-            "profile": "/speakers/c2.png",
-            "link": "/"
+            "title": "Developer Advocate",
+            "name": "Rio Astamal",
+            "description": "Mengembangkan web sejak 2003 dan penggemar open-source.",
+            "profile": "/speakers/rio-astamal.jpeg",
+            "link": "https://www.linkedin.com/in/rioastamal/",
+            "cities": "Semua kota"
         },
 
         {
-            "title": "Developer Advocate",
-            "name": "Michael Brown",
-            "description": "12+ tahun pengalaman dalam membangun alat pengembang dan API. Bersemangat tentang open-source dan membangun komunitas",
-            "profile": "/speakers/c3.png",
-            "link": "/"
+            "title": "Co-Founder Hacktiv8",
+            "name": "Riza Fahmi",
+            "description": "Podcaster, pengembang, dan pengajar yang hobi mengoprek teknologi terbaru.",
+            "profile": "/speakers/riza-fahmi.jpeg",
+            "link": "https://www.linkedin.com/in/rizafahmi/",
+            "cities": "Jakarta"
+        },
+
+        {
+            "title": "Developer dan Pengajar",
+            "name": "Jimmy",
+            "description": "Pengajar dan juga software developer yang melabeli dirinya Fullstack-Saiyan.",
+            "profile": "/speakers/jimmy.jpeg",
+            "link": "https://www.linkedin.com/in/gymie/",
+            "cities": "Medan"
+        },
+
+        {
+            "title": "Cloud Soluitons Architect",
+            "name": "Beny Ibrani",
+            "description": "Selalu tertarik dengan DevOps, Automation, dan Machine Learning.",
+            "profile": "/speakers/beny.jpeg",
+            "link": "https://www.linkedin.com/in/beny-ibrani/",
+            "cities": "Jakarta"
+        },
+
+        {
+            "title": "Cloud Engineer",
+            "name": "Ananda Dwi R.",
+            "description": "Menjadi AWS Hero wanita pertama yang terpilih di Indonesia.",
+            "profile": "/speakers/ananda.jpeg",
+            "link": "https://www.linkedin.com/in/anandadwir/",
+            "cities": "Jogjakarta"
+        },
+
+        {
+            "title": "Observability Product Manager",
+            "name": "Dwi Fahni Denni",
+            "description": "Selalu memudahkan developer lewat DevOps-as-a-Service dan Oberverability.",
+            "profile": "/speakers/dwi-denni.jpeg",
+            "link": "https://www.linkedin.com/in/dfdenni/",
+            "cities": "Bandung"
+        },
+
+        {
+            "title": "Technical Lead",
+            "name": "Rogers Dwiputra",
+            "description": "Tech Lead dan juga instruktur yang gemar memberikan impact positif.",
+            "profile": "/speakers/rogers.jpeg",
+            "link": "https://www.linkedin.com/in/rogersdwiputra/",
+            "cities": "Bandung"
+        },
+
+        {
+            "title": "Technical Lead",
+            "name": "Go Frendi",
+            "description": "Sedang sibuk mengembangkan open-source tool Zrb.",
+            "profile": "/speakers/gofrendi.jpeg",
+            "link": "https://www.linkedin.com/in/go-frendi-gunawan-734819115/",
+            "cities": "Malang"
         }
 
     ]
