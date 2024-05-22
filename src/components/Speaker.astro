@@ -47,6 +47,7 @@ import speakerData from "./Data/speaker.json";
                         Pembicara di:{" "}
                         {cities.map((data, index) => (
                           <a
+                            class="underline"
                             id={`${data}${index}`}
                             href={
                               data === "Semua kota" ? `/#schedule` : `/#${data}`
