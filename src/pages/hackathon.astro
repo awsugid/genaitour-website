@@ -6,49 +6,66 @@ import Layout from "../layouts/Layout.astro";
 <Layout title="PartyRock Hackathon">
   <main class="space-y-20">
     <Container>
-      <div
-        class="relative flex flex-col-reverse justify-center items-center md:flex-row"
-        id="hero"
-      >
-        <div class="row items-center py-5 md:pb-20 md:pt-10">
-          <div class="text-center space-y-10">
-            <h2 class="text-5xl font-medium leading-none md:text-6xl">
-              Partyrock <br /> Hackathon! <br />
-            </h2>
-            <p class="mt-6 mb-8 text-xl font-normal leading-7 sm:mb-12">
-              Menangkan Hadiah menarik saat mengikuti hackathon kami!
-            </p>
-            <a
-              class="px-9 py-5 bg-zinc-900 hover:bg-white text-white hover:text-black border rounded-2xl justify-items-center md:justify-items-start gap-2.5 inline-flex"
-              rel="noopener noreferrer"
-              href="https://github.com/manulthanura/Positivus"
-              target="_blank"
-            >
-              <h2 class="text-center text-xl font-normal leading-7">
-                Daftar Disini
-              </h2>
-            </a>
-          </div>
-        </div>
-      </div>
+      <section class="text-center py-16">
+        <h2 class="text-5xl font-bold mb-4">Hackathon Prizes</h2>
+        <p class="mb-8 text-xl">
+          Win amazing prizes by participating in our hackathon. Showcase your
+          skills and win big!
+        </p>
 
-      <div
-        class="h-[310px] p-12 bg-zinc-100 rounded-[45px] shadow-card border border-black justify-between items-center flex text-black"
-      >
-        <div class="flex-col justify-center items-start gap-[93px] inline-flex">
-          <div class="flex-col justify-start items-start flex">
-            <div
-              class="px-[7px] bg-lime-300 rounded-[7px] flex-col justify-start items-start gap-2.5 flex"
-            >
-              <div class="text-3xl font-medium">Juara 1</div>
-            </div>
+        <img
+          alt="Party Rock"
+          class="mx-auto mt-8"
+          height={300}
+          src="/party-rock.png"
+          style={{
+            aspectRatio: "400/300",
+            objectFit: "cover",
+          }}
+          width={400}
+        />
+        <button
+          type="submit"
+          class="w-full py-5 mt-10 bg-zinc-900 rounded-[14px] justify-center inline-flex"
+        >
+          <div class="text-center text-white text-xl font-normal leading-7">
+            Register Now!
           </div>
-          <a class="justify-start items-center gap-[15px]">
-            <div class="text-xl font-normal leading-7">Ipad</div>
-            <div class="text-xl font-normal leading-7">Handphone</div>
-          </a>
+        </button>
+      </section>
+      <section class="py-16 px-8">
+        <h3 class="text-3xl font-bold mb-8">Prize Details</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div class="p-4 rounded-lg bg-lime">
+            <h4 class="font-bold text-xl mb-2">First Place</h4>
+            <p class="mb-4">
+              The winning team will receive $10,000 in cash, latest tech
+              gadgets, and exclusive mentorship sessions with industry leaders.
+            </p>
+          </div>
+          <div class="p-4 rounded-lg bg-lime">
+            <h4 class="font-bold text-xl mb-2">Second Place</h4>
+            <p class="mb-4">
+              The runner-up team will receive $5,000 in cash, high-quality
+              development tools, and online courses to sharpen their skills.
+            </p>
+          </div>
+          <div class="p-4 rounded-lg bg-lime">
+            <h4 class="font-bold text-xl mb-2">Third Place</h4>
+            <p class="mb-4">
+              The third place team will receive $2,500 in cash, tech swag, and
+              discounts for various development platforms.
+            </p>
+          </div>
         </div>
-      </div>
+      </section>
+      <section class="bg-black text-white py-16 px-8 text-center">
+        <h3 class="text-3xl font-bold mb-4">Ready to win?</h3>
+        <p class="mb-8">
+          Join the hackathon today and take your chance to win incredible
+          prizes!
+        </p>
+      </section>
     </Container>
   </main>
 </Layout>
