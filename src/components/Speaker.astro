@@ -33,6 +33,8 @@ import speakerData from "./Data/speaker.json";
                   <div class="grow shrink basis-0 justify-start items-center gap-8 flex">
                     <div class="left-0 top-0 relative">
                       <img
+                        width="100"
+                        object-fit="cover"
                         src={profile}
                         alt={name}
                         style="border-radius:50%;"
@@ -47,9 +49,7 @@ import speakerData from "./Data/speaker.json";
                           <a
                             id={`${data}${index}`}
                             href={
-                              data === "Semua kota"
-                                ? `/#schedule`
-                                : `/#${data}`
+                              data === "Semua kota" ? `/#schedule` : `/#${data}`
                             }
                           >
                             {data}
