@@ -1,85 +1,83 @@
 {
-    "speakers":
-    [
-        {
-            "title": "Principal Developer Advocate",
-            "name": "Donnie Prokoso",
-            "description": "Software engineer, mengaku barista, dan café racer enthusiast.",
-            "profile": "/speakers/donnie-prakoso.jpg",
-            "link": "https://www.linkedin.com/in/donnieprakoso/",
-            "cities": "Jakarta, Bali"
-        },
-        {
-            "title": "Developer Advocate",
-            "name": "Rio Astamal",
-            "description": "Mengembangkan web sejak 2003 dan penggemar open-source.",
-            "profile": "/speakers/rio-astamal.jpeg",
-            "link": "https://www.linkedin.com/in/rioastamal/",
-            "cities": "Semua kota"
-        },
+  "speakers": [
+    {
+      "title": "Principal Developer Advocate",
+      "name": "Donnie Prokoso",
+      "description": "Software engineer, mengaku barista, dan café racer enthusiast.",
+      "profile": "/speakers/donnie-prakoso.jpg",
+      "link": "https://www.linkedin.com/in/donnieprakoso/",
+      "cities": ["Jakarta", "Bali"]
+    },
+    {
+      "title": "Developer Advocate",
+      "name": "Rio Astamal",
+      "description": "Mengembangkan web sejak 2003 dan penggemar open-source.",
+      "profile": "/speakers/rio-astamal.jpeg",
+      "link": "https://www.linkedin.com/in/rioastamal/",
+      "cities": ["Semua kota"]
+    },
 
-        {
-            "title": "Co-Founder Hacktiv8",
-            "name": "Riza Fahmi",
-            "description": "Podcaster, pengembang, dan pengajar yang hobi mengoprek teknologi terbaru.",
-            "profile": "/speakers/riza-fahmi.jpeg",
-            "link": "https://www.linkedin.com/in/rizafahmi/",
-            "cities": "Jakarta"
-        },
+    {
+      "title": "Co-Founder Hacktiv8",
+      "name": "Riza Fahmi",
+      "description": "Podcaster, pengembang, dan pengajar yang hobi mengoprek teknologi terbaru.",
+      "profile": "/speakers/riza-fahmi.jpeg",
+      "link": "https://www.linkedin.com/in/rizafahmi/",
+      "cities": ["Jakarta"]
+    },
 
-        {
-            "title": "Developer dan Pengajar",
-            "name": "Jimmy",
-            "description": "Pengajar dan juga software developer yang melabeli dirinya Fullstack-Saiyan.",
-            "profile": "/speakers/jimmy.jpeg",
-            "link": "https://www.linkedin.com/in/gymie/",
-            "cities": "Medan"
-        },
+    {
+      "title": "Developer dan Pengajar",
+      "name": "Jimmy",
+      "description": "Pengajar dan juga software developer yang melabeli dirinya Fullstack-Saiyan.",
+      "profile": "/speakers/jimmy.jpeg",
+      "link": "https://www.linkedin.com/in/gymie/",
+      "cities": ["Medan"]
+    },
 
-        {
-            "title": "Cloud Soluitons Architect",
-            "name": "Beny Ibrani",
-            "description": "Selalu tertarik dengan DevOps, Automation, dan Machine Learning.",
-            "profile": "/speakers/beny.jpeg",
-            "link": "https://www.linkedin.com/in/beny-ibrani/",
-            "cities": "Jakarta"
-        },
+    {
+      "title": "Cloud Soluitons Architect",
+      "name": "Beny Ibrani",
+      "description": "Selalu tertarik dengan DevOps, Automation, dan Machine Learning.",
+      "profile": "/speakers/beny.jpeg",
+      "link": "https://www.linkedin.com/in/beny-ibrani/",
+      "cities": ["Jakarta"]
+    },
 
-        {
-            "title": "Cloud Engineer",
-            "name": "Ananda Dwi R.",
-            "description": "Menjadi AWS Hero wanita pertama yang terpilih di Indonesia.",
-            "profile": "/speakers/ananda.jpeg",
-            "link": "https://www.linkedin.com/in/anandadwir/",
-            "cities": "Jogjakarta"
-        },
+    {
+      "title": "Cloud Engineer",
+      "name": "Ananda Dwi R.",
+      "description": "Menjadi AWS Hero wanita pertama yang terpilih di Indonesia.",
+      "profile": "/speakers/ananda.jpeg",
+      "link": "https://www.linkedin.com/in/anandadwir/",
+      "cities": ["Jogjakarta"]
+    },
 
-        {
-            "title": "Observability Product Manager",
-            "name": "Dwi Fahni Denni",
-            "description": "Selalu memudahkan developer lewat DevOps-as-a-Service dan Oberverability.",
-            "profile": "/speakers/dwi-denni.jpeg",
-            "link": "https://www.linkedin.com/in/dfdenni/",
-            "cities": "Bandung"
-        },
+    {
+      "title": "Observability Product Manager",
+      "name": "Dwi Fahni Denni",
+      "description": "Selalu memudahkan developer lewat DevOps-as-a-Service dan Oberverability.",
+      "profile": "/speakers/dwi-denni.jpeg",
+      "link": "https://www.linkedin.com/in/dfdenni/",
+      "cities": ["Bandung"]
+    },
 
-        {
-            "title": "Technical Lead",
-            "name": "Rogers Dwiputra",
-            "description": "Tech Lead dan juga instruktur yang gemar memberikan impact positif.",
-            "profile": "/speakers/rogers.jpeg",
-            "link": "https://www.linkedin.com/in/rogersdwiputra/",
-            "cities": "Bandung"
-        },
+    {
+      "title": "Technical Lead",
+      "name": "Rogers Dwiputra",
+      "description": "Tech Lead dan juga instruktur yang gemar memberikan impact positif.",
+      "profile": "/speakers/rogers.jpeg",
+      "link": "https://www.linkedin.com/in/rogersdwiputra/",
+      "cities": ["Bandung"]
+    },
 
-        {
-            "title": "Technical Lead",
-            "name": "Go Frendi",
-            "description": "Sedang sibuk mengembangkan open-source tool Zrb.",
-            "profile": "/speakers/gofrendi.jpeg",
-            "link": "https://www.linkedin.com/in/go-frendi-gunawan-734819115/",
-            "cities": "Malang"
-        }
-
-    ]
+    {
+      "title": "Technical Lead",
+      "name": "Go Frendi",
+      "description": "Sedang sibuk mengembangkan open-source tool Zrb.",
+      "profile": "/speakers/gofrendi.jpeg",
+      "link": "https://www.linkedin.com/in/go-frendi-gunawan-734819115/",
+      "cities": ["Malang"]
+    }
+  ]
 }

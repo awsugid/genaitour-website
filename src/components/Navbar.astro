@@ -3,10 +3,11 @@
 const navLinks = [
   { href: "/#schedule", label: "Jadwal" },
   { href: "/#speaker", label: "Speaker" },
-  { href: "/#sponsor", label: "Sponsor" }
-]
+  { href: "/#sponsor", label: "Sponsor" },
+  { href: "/hackathon", label: "PartyRock Hackathon" },
+];
 
-import Container from "./Container.astro"
+import Container from "./Container.astro";
 ---
 
 <style>
@@ -89,32 +90,32 @@ import Container from "./Container.astro"
 
 <script>
   document.addEventListener("DOMContentLoaded", () => {
-    const navbar = document.getElementById("navbar-default")
+    const navbar = document.getElementById("navbar-default");
 
     // Check if navbar exists before adding event listeners
     if (navbar) {
       const toggleButton = document.querySelector(
         '[data-collapse-toggle="navbar-default"]'
-      )
-      const navLinks = navbar.querySelectorAll("a")
+      );
+      const navLinks = navbar.querySelectorAll("a");
 
       if (toggleButton) {
         toggleButton.addEventListener("click", () =>
           navbar.classList.toggle("hidden")
-        )
+        );
       } else {
         console.warn(
           "Navbar toggle button not found. Toggle functionality might be affected."
-        )
+        );
       }
 
       navLinks.forEach((link) =>
         link.addEventListener("click", () => navbar.classList.add("hidden"))
-      )
+      );
     } else {
       console.warn(
         "Navbar element with ID 'navbar-default' not found. Navigation functionality might be affected."
-      )
+      );
     }
-  })
+  });
 </script>
