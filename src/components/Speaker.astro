@@ -27,11 +27,11 @@ import speakerData from "./Data/speaker.json";
       {
         speakerData.speakers.map(
           ({ title, description, name, link, profile, cities }) => (
-            <div class="h-[331px] px-[35px] py-10 bg-white rounded-[45px] shadow border border-zinc-900 flex-col justify-start items-start gap-2.5 inline-flex text-black">
-              <div class="flex-col justify-start items-start gap-7 flex">
+            <div class="h-[331px] py-4 px-8 md:px-[35px] md:py-10 bg-white rounded-[45px] shadow border border-zinc-900 flex-col justify-start items-start gap-2.5 inline-flex text-black">
+              <div class="flex-col justify-start items-start md:gap-7 gap-4 flex ">
                 <div class="self-stretch justify-start items-start inline-flex">
-                  <div class="grow shrink basis-0 justify-start items-center gap-8 flex">
-                    <div class="left-0 top-0 relative">
+                  <div class="grow shrink basis-0 md:justify-start items-center gap-8 md:flex">
+                    <div>
                       <img
                         width="100"
                         object-fit="cover"
