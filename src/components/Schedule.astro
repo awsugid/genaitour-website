@@ -33,8 +33,13 @@ import scheduleData from "./Data/schedule.json";
           description,
           confirmed,
           session_list,
+          venue,
+          venue_link,
+          venue_addr,
+          venue_maps,
+          registration_url
         }) => (
-          <h2 id={`${title}`}>
+          <h2 id={`${title.toLowerCase()}`}>
             <div class="w-full px-14 py-10 bg-white text-zinc-900 focus:bg-lime rounded-[45px] shadow border border-black flex-col justify-start items-start gap-7 inline-flex">
               <button
                 type="button"
@@ -59,11 +64,19 @@ import scheduleData from "./Data/schedule.json";
               </button>
               <div class="text-lg font-normal" id={bid} aria-labelledby={hid}>
                 <hr class="w-full border border-black mb-6" />
-                <p class="mb-2 text-gray-500 text-sm md:text-lg">
+                <p class="mb-6 text-gray-500 text-sm md:text-lg">
                   {description}
                 </p>
+                <p class="text-2xl font-bold">Venue:</p>
+                <hr class="w-full my-2 border border-black mb-6" />
+                <h4 class="text-md md:text-xl font-medium"><a href={venue_maps}>{venue}</a></h4>
+                <p class="mb-2 text-gray-500 text-sm md:text-lg mb-10">
+                  <a href={venue_maps}><img align="left" style="height:24px" src="/static/map.svg" />{venue_addr}</a>
+                </p>
+
                 <p class="text-2xl font-bold">Session List:</p>
                 <hr class="w-full my-2 border border-black mb-6" />
+
                 {session_list?.length === 0 ||
                   (!session_list && (
                     <p class="text-md font-bold font-mono">
@@ -74,9 +87,9 @@ import scheduleData from "./Data/schedule.json";
                   ({ id, time, title, description, speaker }) => (
                     <div id={id} class="mb-4">
                       <h4 class="text-md md:text-xl font-medium">{time}</h4>
-                      <div class="flex">
+                      <div class="flex bg-lime">
                         <h5 class="text-sm md:text-lg font-semibold">
-                          {title} - {speaker}
+                          {title} {speaker ? '- ' + speaker : '' }
                         </h5>
                       </div>
                       <p class="text-sm md:text-md">{description}</p>
@@ -89,7 +102,7 @@ import scheduleData from "./Data/schedule.json";
                   <a
                     class="px-9 py-5 bg-zinc-900 hover:bg-white text-white hover:text-black border rounded-2xl justify-items-center md:justify-items-start gap-2.5 inline-flex"
                     rel="noopener noreferrer"
-                    href="#nanti-redirect-ke-gform"
+                    href={registration_url}
                   >
                     <h2 class="text-center font-normal leading-4">Daftar</h2>
                   </a>

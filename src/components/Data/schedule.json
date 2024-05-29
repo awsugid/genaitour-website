@@ -2,40 +2,94 @@
   "schedules": [
     {
       "id": "29 Juni",
-      "confirmed": false,
+      "confirmed": true,
       "hid": "accordion-open-heading-1",
       "bid": "accordion-open-body-1",
       "target": "#accordion-open-body-1",
       "title": "Medan",
       "description": "Kota pertama dari GenAI Tour 2024 ini. Medan adalah kota terbesar ke-4 di Indonesia dan merupakan salah satu kota terbesar di luar Pulau Jawa. Terletak di pulau Sumatera, kota ini memiliki berbagai macam kuliner yang lezat dan tempat wisata yang menarik.",
+      "registration_url": "https://bit.ly/genai24medan",
+      "venue": "Universitas IBBI",
+      "venue_link": "https://ibbi.ac.id/",
+      "venue_addr": "Jalan Sei Deli No.18 Medan, Sumatra Utara, Indonesia, 20114",
+      "venue_maps": "https://maps.app.goo.gl/crdQUG3QZfbPmV2w8",
       "session_list": [
         {
           "id": "1",
-          "time": "08.00 - 09.00",
-          "title": "Materi 1",
-          "description": "Materi tentang registrasi peserta dan tata cara mengikuti acara.",
-          "speaker": "Speaker 1"
+          "time": "08.30 - 09.00",
+          "title": "Registrasi / Networking",
+          "description": "Registrasi peserta dibuka.",
+          "speaker": ""
         },
         {
           "id": "2",
-          "time": "09.00 - 10.00",
-          "title": "Materi 2",
-          "description": "Materi tentang teknologi terbaru dan tren di industri IT.",
-          "speaker": "Speaker 2"
+          "time": "09.00 - 09.30",
+          "title": "Pembukaan",
+          "description": "Pembukaan GenAI Tour Medan oleh panitia.",
+          "speaker": ""
         },
         {
           "id": "3",
-          "time": "10.00 - 12.00",
-          "title": "Materi 3",
-          "description": "Materi tentang pengembangan aplikasi berbasis AI dan Machine Learning.",
-          "speaker": "Speaker 3"
+          "time": "90.35 - 10.05",
+          "title": "#1 Panduan untuk generative AI di 2024",
+          "description": "Sesi ini akan membahas generative AI (GenAI) dan role dari AI engineer dan bagaimana harusnya kita belajar skill AI engineering di 2024. Presentasi ini akan mengcover beberapa topik dasar seperti Foundation Model, Prompt Engineering, Retrieval Augmented Generation (RAG), Agents, dan Fine-tuning model.",
+          "speaker": ""
         },
         {
           "id": "4",
-          "time": "12.00 - 13.00",
-          "title": "Materi 4",
-          "description": "Materi tentang pengalaman sukses dalam industri IT dan wirausaha.",
-          "speaker": "Speaker 4"
+          "time": "10.10 - 10.40",
+          "title": "#2 Prompt engineering master class",
+          "description": "Prompt engineering merupakan sebuah teknik yang digunakan agar input yang diberikan ke AI model mendapatkan response yang terbaik. Sesi ini akan memberikan panduan bagaimana melakukan prompt engineering secara efektif dan berbagai tipsnya.",
+          "speaker": ""
+        },
+        {
+          "id": "5",
+          "time": "10.45 - 11.15",
+          "title": "#3 Chat dengan dokumen internalmu menggunakan RAG",
+          "description": "Penggunaan AI tidak akan bermanfaat banyak jika ia tidak bisa memahami data internal kita. Sesi ini akan menjelaskan implementasi dari Retrieval Augmented Generation (RAG) yang dapat digunakan agar AI memiliki konteks pemahaman sehingga kita dapat bertanya pada AI informasi yang ada pada data kita. Sumber data dapat berupa website, dokumen PDF, histori percakapan dan lain-lain.",
+          "speaker": ""
+        },
+        {
+          "id": "6",
+          "time": "11.20 - 11.50",
+          "title": "PartyRock challenge",
+          "description": "PartyRock.aws adalah layanan untuk membuat aplikasi AI tanpa koding. Peserta akan ditantang untuk membuat aplikasi unik dan menarik dalam rentang waktu 30 menit. Pemenang akan mendapatkan hadiah merchandise super menarik!",
+          "speaker": ""
+        },
+        {
+          "id": "7",
+          "time": "11.55 - 12.55",
+          "title": "Break makan siang",
+          "description": "Break 1 jam untuk makan siang dan networking.",
+          "speaker": ""
+        },
+        {
+          "id": "8",
+          "time": "13.00 - 13.30",
+          "title": "#4 Evaluasi LLM dengan game Street Fighter, siapa menang?",
+          "description": "Memilih Large Language Model (LLM) untuk digunakan pada aplikasi GenAI kita kadang tidak mudah. Pada sesi ini akan dibandingkan beberapa LLM bagaimana mereka bermain game Street Fighter III. Beberapa kriteria yang menjadi pertimbangan adalah kecepatan, kecerdasan, dan cara beradaptasi.",
+          "speaker": ""
+        },
+        {
+          "id": "9",
+          "time": "13.35 - 14.05",
+          "title": "#5 Membuat AI photobooth image generator",
+          "description": "Membuat image dari sebuah text prompt memang mudah, namun untuk mendapatkan style dan hasil yang unik maka diperlukan custom model. Pada sesi ini akan ditunjukkan bagaimana membuat aplikasi photobooth memanfaatkan custom model Jugganaut XL, IP Adapter dan CodeFormer untuk menghasilkan karakter dinamis dari foto pengguna.",
+          "speaker": ""
+        },
+        {
+          "id": "10",
+          "time": "14.10 - 14.20",
+          "title": "Penutupan",
+          "description": "Sesi penutupan dan pemberian hadiah untuk pemenang PartyRock challenge.",
+          "speaker": ""
+        },
+        {
+          "id": "11",
+          "time": "14.25 - 16.25",
+          "title": "Workshop: Membuat aplikasi GenAI pertamamu",
+          "description": "Sesi workshop bagaimana membangun aplikasi GenAI menggunakan Amazon Bedrock. Akun AWS akan disediakan oleh panitia. Kuota terbatas, hanya peserta yang mendaftar dan terpilih yang dapat mengikuti workshop. Peserta diwajibkan membawa laptop sendiri.",
+          "speaker": ""
         }
       ]
     },
