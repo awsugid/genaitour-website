@@ -34,7 +34,6 @@ import scheduleData from "./Data/schedule.json";
           confirmed,
           session_list,
           venue,
-          venue_link,
           venue_addr,
           venue_maps,
           registration_url
@@ -70,8 +69,8 @@ import scheduleData from "./Data/schedule.json";
                 <p class="text-2xl font-bold">Venue:</p>
                 <hr class="w-full my-2 border border-black mb-6" />
                 <h4 class="text-md md:text-xl font-medium"><a href={venue_maps}>{venue}</a></h4>
-                <p class="mb-2 text-gray-500 text-sm md:text-lg mb-10">
-                  <a href={venue_maps}><img align="left" style="height:24px" src="/static/map.svg" />{venue_addr}</a>
+                <p class="mb-2 text-gray-500 text-sm md:text-lg mb-12">
+                  <a href={venue_maps}><img style="height:24px;float:left" src="/static/map.svg" />{venue_addr}</a>
                 </p>
 
                 <p class="text-2xl font-bold">Session List:</p>
