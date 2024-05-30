@@ -38,13 +38,13 @@ import scheduleData from "./Data/schedule.json";
           venue_maps,
           registration_url,
         }) => (
-          <h2 id={`${title}`}>
+          <div id={`${title.toLowerCase()}`} class="accordion-item">
             <div class="w-full px-14 py-10 bg-white text-zinc-900 focus:bg-lime rounded-[45px] shadow border border-black flex-col justify-start items-start gap-7 inline-flex">
               <button
                 type="button"
-                class="w-full flex justify-between items-center"
+                class="w-full flex justify-between items-center accordion-button"
                 data-accordion-target={target}
-                aria-expanded="true"
+                aria-expanded="false"
                 aria-controls={bid}
               >
                 <div class="justify-start items-center gap-6 flex">
@@ -61,7 +61,11 @@ import scheduleData from "./Data/schedule.json";
                   />
                 </div>
               </button>
-              <div class="text-lg font-normal" id={bid} aria-labelledby={hid}>
+              <div
+                class="text-lg font-normal accordion-content hidden"
+                id={bid}
+                aria-labelledby={hid}
+              >
                 <hr class="w-full border border-black mb-6" />
                 <p class="mb-6 text-gray-500 text-sm md:text-lg">
                   {description}
@@ -117,9 +121,50 @@ import scheduleData from "./Data/schedule.json";
                 )}
               </div>
             </div>
-          </h2>
+          </div>
         )
       )
     }
   </div>
+
+  <script>
+    function openAccordionFromHash() {
+      const hash = window.location.hash.substring(1).toLowerCase();
+      if (hash) {
+        const targetElement = document.getElementById(hash);
+        if (targetElement) {
+          const button = targetElement.querySelector(".accordion-button");
+          const content = targetElement.querySelector(".accordion-content");
+          if (button && content) {
+            button.setAttribute("aria-expanded", "true");
+            content.classList.remove("hidden");
+          }
+        }
+      }
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+      openAccordionFromHash();
+
+      window.addEventListener("hashchange", () => {
+        openAccordionFromHash();
+      });
+
+      const buttons = document.querySelectorAll(".accordion-button");
+      buttons.forEach((button) => {
+        button.addEventListener("click", () => {
+          const expanded = button.getAttribute("aria-expanded") === "true";
+          button.setAttribute("aria-expanded", String(!expanded));
+          const content = button.nextElementSibling;
+          if (content) {
+            if (expanded) {
+              content.classList.add("hidden");
+            } else {
+              content.classList.remove("hidden");
+            }
+          }
+        });
+      });
+    });
+  </script>
 </Container>

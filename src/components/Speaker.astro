@@ -50,7 +50,9 @@ import speakerData from "./Data/speaker.json";
                             class="underline"
                             id={`${data}${index}`}
                             href={
-                              data === "Semua kota" ? `/#schedule` : `/#${data}`
+                              data === "Semua kota"
+                                ? `/#schedule`
+                                : `/#${data.toLowerCase()}`
                             }
                           >
                             {data}
