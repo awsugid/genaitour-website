@@ -6,11 +6,22 @@ import Layout from "../layouts/Layout.astro";
 <Layout title="PartyRock Hackathon">
   <main class="space-y-20">
     <Container>
-      <section class="text-center py-16">
-        <h2 class="text-5xl font-bold mb-4">Hackathon Prizes</h2>
+      <section class="text-left py-16">
+        <h2 class="text-5xl font-bold mb-4">PartyRock Hackathon</h2>
         <p class="mb-8 text-xl">
-          Win amazing prizes by participating in our hackathon. Showcase your
-          skills and win big!
+          Pada hackathon ini kamu ditantang untuk membuat aplikasi GenAI 
+          yang menarik dan bernilai manfaat dengan menggunakan 
+          <a class="font-bold underline" href="https://partyrock.aws">PartyRock</a></b>.
+          Dengan PartyRock kamu bisa bereksperimen dengan Prompt Engineering dan 
+          berbagai Foundation Model (FM) yang didukung oleh 
+          <a class="font-bold underline" href="https://aws.amazon.com/bedrock/">Amazon Bedrock</a>
+          seperti Claude 3, Titan, Jurassic-2, Command, Llama 2 untuk membuat aplikasi tanpa perlu coding.
+        </p>
+
+        <p class="mb-8 text-xl">
+        Kamu <b>tidak perlu</b> akun AWS untuk menggunakan PartyRock. Dan saat ini PartyRock dapat digunakan
+        secara gratis. Kamu dapat melihat halaman <a class="font-bold underline" href="">Getting Started</a> 
+        untuk panduan bagaimana mulai menggunakan PartyRock.
         </p>
 
         <img
@@ -29,32 +40,59 @@ import Layout from "../layouts/Layout.astro";
           class="w-full py-5 mt-10 bg-zinc-900 rounded-[14px] justify-center inline-flex"
         >
           <div class="text-center text-white text-xl font-normal leading-7">
-            Register Now!
+            Pendaftaran dibuka mulai 29 Juni 2024!
           </div>
         </button>
       </section>
+
+      <section class="px-8">
+        <h3 class="text-3xl font-bold mb-8">Ketentuan</h3>
+        <p class="mb-6 text-xl">Ini adalah ketentuan yang harus dipenuhi peserta.</p>
+        <ul class="text-xl list-disc ml-8">
+          <li>Mengirimkan link aplikasi PartyRock lewat submission form yang telah ditentukan</li>
+          <li>Peserta dapat mengirimkan lebih dari satu aplikasi</li>
+          <li>Menjawab semua pertanyaan pada submission form dengan benar</li>
+          <li>Peserta adalah warga negara Indonesia (WNI)</li>
+        </ul>
+      </section>
+
       <section class="py-16 px-8">
-        <h3 class="text-3xl font-bold mb-8">Prize Details</h3>
+        <h3 class="text-3xl font-bold mb-8">Sumber Inspirasi</h3>
+        <p class="mb-6 text-xl">Untuk membantu kamu membuat aplikasi AI dengan PartyRock, 
+        beberapa referensi berikut dapat kamu jadikan sebagai sumber inspirasi.</p>
+        <ul class="text-xl list-disc ml-8">
+          <li class="mb-6">Learn To Create Generative AI Apps with PartyRock - by Mike Chambers<br>PartyRock URL: <a class="font-bold underline" href="https://partyrock.aws/u/mike/0LguncjFe/My-Pet's-Superhero-Name-Generator">partyrock.aws/u/mike/0LguncjFe/My-Pet's-Superhero-Name-Generator</a>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-6p-u-BwJww?si=SDF3WGWu_NVR9kVC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></li>
+          
+          <li class="mb-6">Parable Rhythm (Role-Playing Game) - by Param Birje <br>PartyRock URL: <a class="font-bold underline" href="https://partyrock.aws/u/parambirje/t--nDqgdb/Parable-Rhythm">partyrock.aws/u/parambirje/t--nDqgdb/Parable-Rhythm</a><iframe width="560" height="315" src="https://www.youtube.com/embed/mM8Ow1fC4b4?si=FZebvmwZZYNn7Q1A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></li>
+
+          <li class="mb-6">Resume Optimizer - by Viktoria Semaan <br>PartyRock URL: <a class="font-bold underline" href="https://partyrock.aws/u/viktoria/0P8VymYdp/Resume-Optimizer">partyrock.aws/u/viktoria/0P8VymYdp/Resume-Optimizer</a></li>
+
+          <li class="mb-6">Daily NutriPlan - by eparamasari <br>PartyRock URL: <a class="font-bold underline" href="https://partyrock.aws/u/eparamasari/n7DPKlD_1/Daily-NutriPlan">partyrock.aws/u/eparamasari/n7DPKlD_1/Daily-NutriPlan</a></li>
+          
+          <li>Temukan inspirasi lainnya di <a class="font-bold underline" href="https://partyrock.aws/discover">partyrock.aws/discover</a></li>
+        </ul>
+      </section>
+
+      <section class="py-16 px-8">
+        <h3 class="text-3xl font-bold mb-8">Hadiah</h3>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div class="p-4 rounded-lg bg-lime">
-            <h4 class="font-bold text-xl mb-2">First Place</h4>
+            <h4 class="font-bold text-xl mb-2">Pemenang #1</h4>
             <p class="mb-4">
-              The winning team will receive $10,000 in cash, latest tech
-              gadgets, and exclusive mentorship sessions with industry leaders.
+              [Segera diumumkan]
             </p>
           </div>
           <div class="p-4 rounded-lg bg-lime">
-            <h4 class="font-bold text-xl mb-2">Second Place</h4>
+            <h4 class="font-bold text-xl mb-2">Pemenang #2</h4>
             <p class="mb-4">
-              The runner-up team will receive $5,000 in cash, high-quality
-              development tools, and online courses to sharpen their skills.
+              [Segera diumumkan]
             </p>
           </div>
           <div class="p-4 rounded-lg bg-lime">
-            <h4 class="font-bold text-xl mb-2">Third Place</h4>
+            <h4 class="font-bold text-xl mb-2">Pemenang #3</h4>
             <p class="mb-4">
-              The third place team will receive $2,500 in cash, tech swag, and
-              discounts for various development platforms.
+              [Segera diumumkan]
             </p>
           </div>
         </div>
