@@ -2,8 +2,8 @@
 import Container from "./Container.astro";
 ---
 
-<Container >
-  <div class="relative flex flex-col items-center md:flex-row" id="sponsor" >
+<Container>
+  <div class="relative flex flex-col items-center md:flex-row" id="sponsor">
     <div class="row items-center py-5 md:pr-16 md:w-5/12 md:py-10">
       <div class="text-center md:text-left space-y-3 bg-lime">
         <h2 class="text-4xl font-medium leading-none sm:text-6xl">
@@ -19,28 +19,14 @@ import Container from "./Container.astro";
   </div>
   <div>
     <h3 class="text-2xl font-bold bg-[#E5E4E2] py-2 pl-3 pr-16">Platinum</h3>
-    <div
-      class="grid grid-cols-2 gap-5 md:grid-cols-4 py-10 justify-center items-center"
-    >
-      <img src="/sponsors/logo-1.svg" alt="Platinum Sponsor" width="200"/>
-      <img src="/sponsors/logo-2.svg" alt="Platinum Sponsor" width="200"/>
-      <img src="/sponsors/logo-3.svg" alt="Platinum Sponsor" width="200"/>
-      <img src="/sponsors/logo-4.svg" alt="Platinum Sponsor" width="200"/>
-      <img src="/sponsors/logo-5.svg" alt="Platinum Sponsor" width="200"/>
-      <img src="/sponsors/logo-6.svg" alt="Platinum Sponsor" width="200"/>
+    <div class="flex py-10 justify-center items-center">
+      <img src="/sponsors/logo-1.svg" alt="Platinum Sponsor" width="200" />
     </div>
   </div>
   <div>
     <h3 class="text-2xl font-bold bg-[#FFD700] py-2 pl-3 pr-16">Gold</h3>
-    <div
-      class="grid grid-cols-2 gap-5 md:grid-cols-4 py-10 justify-center items-center"
-    >
-    <img src="/sponsors/logo-1.svg" alt="Platinum Sponsor" width="150"/>
-    <img src="/sponsors/logo-2.svg" alt="Platinum Sponsor" width="150"/>
-    <img src="/sponsors/logo-3.svg" alt="Platinum Sponsor" width="150"/>
-    <img src="/sponsors/logo-4.svg" alt="Platinum Sponsor" width="150"/>
-    <img src="/sponsors/logo-5.svg" alt="Platinum Sponsor" width="150"/>
-    <img src="/sponsors/logo-6.svg" alt="Platinum Sponsor" width="150"/>
+    <div class="flex py-10 justify-center items-center">
+      <img src="/sponsors/logo-1.svg" alt="Platinum Sponsor" width="150" />
     </div>
   </div>
   <div>
@@ -48,16 +34,25 @@ import Container from "./Container.astro";
     <div
       class="grid grid-cols-2 gap-5 md:grid-cols-4 py-10 justify-center items-center"
     >
-    <img src="/sponsors/logo-1.svg" alt="Platinum Sponsor" width="80"/>
-    <img src="/sponsors/logo-2.svg" alt="Platinum Sponsor" width="80"/>
-    <img src="/sponsors/logo-3.svg" alt="Platinum Sponsor" width="80"/>
-    <img src="/sponsors/logo-4.svg" alt="Platinum Sponsor" width="80"/>
-    <img src="/sponsors/logo-5.svg" alt="Platinum Sponsor" width="80"/>
-    <img src="/sponsors/logo-6.svg" alt="Platinum Sponsor" width="80"/>
+      <img
+        src="/sponsors/armour_logo.jpg"
+        alt="Armour Zero Logo"
+        width="120"
+        class="object-fill h-[80px]"
+      />
+      <img src="/sponsors/IBBI_Logo.png" alt="IBBI Logo" width="65" />
+      <img
+        src="/sponsors/hacktiv8-logo.png"
+        alt="Platinum Sponsor"
+        width="140"
+        class="object-fill h-[40px]"
+      />
+      <img src="/sponsors/logo-4.svg" alt="Platinum Sponsor" width="80" />
     </div>
   </div>
   <div class="text-center">
     <p class="text-3xl">Ingin menjadi sponsor kami?</p>
+
     <a
       class="px-9 py-5 mt-8 bg-zinc-900 hover:bg-white text-white hover:text-black border rounded-2xl justify-items-center md:justify-items-start gap-2.5 inline-flex"
       rel="noopener noreferrer"

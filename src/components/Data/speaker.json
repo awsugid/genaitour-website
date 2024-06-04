@@ -78,6 +78,14 @@
       "profile": "/speakers/gofrendi.jpeg",
       "link": "https://www.linkedin.com/in/go-frendi-gunawan-734819115/",
       "cities": ["Malang"]
+    },
+    {
+      "title": "Senior Solutions Architect",
+      "name": "Pugar Jayanegara",
+      "description": "Senior Solution Architect yang dulunya hobi bermain marching band",
+      "profile": "/speakers/pugar.jpeg",
+      "link": "https://www.linkedin.com/in/go-frendi-gunawan-734819115/",
+      "cities": ["Medan"]
     }
   ]
 }
