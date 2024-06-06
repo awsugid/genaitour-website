@@ -86,6 +86,22 @@
       "profile": "/speakers/pugar.jpeg",
       "link": "https://www.linkedin.com/in/pugar-j-78889816",
       "cities": ["Medan"]
+    },
+    {
+      "title": "Dosen",
+      "name": "Albert Suwandhi",
+      "description": "Dosen dan juga seorang AWS Hero yang commit untuk komunitas.",
+      "profile": "/speakers/albert.jpg",
+      "link": "https://www.linkedin.com/in/albertsuwandhi/",
+      "cities": ["Medan"]
+    },
+    {
+      "title": "Praktisi Data",
+      "name": "Lintang Gilang",
+      "description": "Praktisi Data dan juga Instruktur yang senang ngoprek machine learning.",
+      "profile": "/speakers/gilang.jpg",
+      "link": "https://www.linkedin.com/in/lintanggilang/",
+      "cities": ["Medan"]
     }
   ]
 }
