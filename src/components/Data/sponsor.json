@@ -1,0 +1,32 @@
+[
+  {
+    "url": "/sponsors/logo-1.svg",
+    "alt": "Platinum Sponsor",
+    "tier": "Platinum"
+  },
+  {
+    "url": "/sponsors/logo-1.svg",
+    "alt": "Gold Sponsor",
+    "tier": "Gold"
+  },
+  {
+    "url": "/sponsors/armour_logo.jpg",
+    "alt": "Armour Zero Logo",
+    "tier": "Silver"
+  },
+  {
+    "url": "/sponsors/IBBI_Logo.png",
+    "alt": "IBBI Logo",
+    "tier": "Silver"
+  },
+  {
+    "url": "/sponsors/hacktiv8-logo.png",
+    "alt": "Hacktiv8 Logo",
+    "tier": "Silver"
+  },
+  {
+    "url": "/sponsors/logo-4.svg",
+    "alt": "Silver Sponsor",
+    "tier": "Silver"
+  }
+]

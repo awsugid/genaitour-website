@@ -1,5 +1,6 @@
 ---
 import Container from "./Container.astro";
+import sponsors from "./Data/sponsor.json";
 ---
 
 <Container>
@@ -17,42 +18,59 @@ import Container from "./Container.astro";
       </p>
     </div>
   </div>
+
+  <!-- Platinum Sponsors -->
   <div>
     <h3 class="text-2xl font-bold bg-[#E5E4E2] py-2 pl-3 pr-16">Platinum</h3>
     <div class="flex py-10 justify-center items-center">
-      <img src="/sponsors/logo-1.svg" alt="Platinum Sponsor" width="200" />
+      {
+        sponsors
+          .filter((sponsor) => sponsor.tier === "Platinum")
+          .map((sponsor) => (
+            <div class="flex justify-center items-center">
+              <img src={sponsor.url} alt={sponsor.alt} class="max-h-[180px]" />
+            </div>
+          ))
+      }
     </div>
   </div>
+
+  <!-- Gold Sponsors -->
   <div>
     <h3 class="text-2xl font-bold bg-[#FFD700] py-2 pl-3 pr-16">Gold</h3>
     <div class="flex py-10 justify-center items-center">
-      <img src="/sponsors/logo-1.svg" alt="Platinum Sponsor" width="150" />
+      {
+        sponsors
+          .filter((sponsor) => sponsor.tier === "Gold")
+          .map((sponsor) => (
+            <div class="flex justify-center items-center">
+              <img src={sponsor.url} alt={sponsor.alt} class="max-h-[120px]" />
+            </div>
+          ))
+      }
     </div>
   </div>
+
+  <!-- Silver Sponsors -->
   <div>
     <h3 class="text-2xl font-bold bg-[#C0C0C0] py-2 pl-3 pr-16">Silver</h3>
     <div
       class="grid grid-cols-2 gap-5 md:grid-cols-4 py-10 justify-center items-center"
     >
-      <img
-        src="/sponsors/armour_logo.jpg"
-        alt="Armour Zero Logo"
-        width="120"
-        class="object-fill h-[80px]"
-      />
-      <img src="/sponsors/IBBI_Logo.png" alt="IBBI Logo" width="65" />
-      <img
-        src="/sponsors/hacktiv8-logo.png"
-        alt="Platinum Sponsor"
-        width="140"
-        class="object-fill h-[40px]"
-      />
-      <img src="/sponsors/logo-4.svg" alt="Platinum Sponsor" width="80" />
+      {
+        sponsors
+          .filter((sponsor) => sponsor.tier === "Silver")
+          .map((sponsor) => (
+            <div class="flex justify-center items-center">
+              <img src={sponsor.url} alt={sponsor.alt} class="max-h-[80px]" />
+            </div>
+          ))
+      }
     </div>
   </div>
+
   <div class="text-center">
     <p class="text-3xl">Ingin menjadi sponsor kami?</p>
-
     <a
       class="px-9 py-5 mt-8 bg-zinc-900 hover:bg-white text-white hover:text-black border rounded-2xl justify-items-center md:justify-items-start gap-2.5 inline-flex"
       rel="noopener noreferrer"
