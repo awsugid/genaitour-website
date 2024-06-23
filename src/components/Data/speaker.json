@@ -61,7 +61,6 @@
       "link": "https://www.linkedin.com/in/dfdenni/",
       "cities": ["Bandung"]
     },
-
     {
       "title": "Technical Lead",
       "name": "Rogers Dwiputra",
@@ -70,7 +69,6 @@
       "link": "https://www.linkedin.com/in/rogersdwiputra/",
       "cities": ["Bandung"]
     },
-
     {
       "title": "Technical Lead",
       "name": "Go Frendi",
@@ -102,6 +100,22 @@
       "profile": "/speakers/gilang.jpg",
       "link": "https://www.linkedin.com/in/lintanggilang/",
       "cities": ["Medan"]
+    },
+    {
+      "title": "Serverless Developer",
+      "name": "Mahdi Ridho",
+      "description": "Serverless addict dengan moto: Serverless is my sonic way.",
+      "profile": "/speakers/ridho-serverless.jpeg",
+      "link": "https://www.linkedin.com/in/mahdi-ridho-61b505a6/",
+      "cities": ["Jakarta"]
+    },
+    {
+      "title": "Infra Engineer",
+      "name": "Andre Aliaman",
+      "description": "Infrastructure engineer saya selalu suka mengotomasi segalanya.",
+      "profile": "/speakers/andre.jpeg",
+      "link": "https://www.linkedin.com/in/iilness/",
+      "cities": ["Bandung"]
     }
   ]
 }
