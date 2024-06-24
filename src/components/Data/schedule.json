@@ -33,21 +33,21 @@
           "time": "09.35 - 10.05",
           "title": "#1 Panduan untuk generative AI di 2024",
           "description": "Sesi ini akan membahas generative AI (GenAI) dan role dari AI engineer dan bagaimana harusnya kita belajar skill AI engineering di 2024. Presentasi ini akan mengcover beberapa topik dasar seperti Foundation Model, Prompt Engineering, Retrieval Augmented Generation (RAG), Agents, dan Fine-tuning model.",
-          "speaker": ""
+          "speaker": "Albert Suwandhi"
         },
         {
           "id": "4",
           "time": "10.10 - 10.40",
           "title": "#2 Prompt engineering master class",
           "description": "Prompt engineering merupakan sebuah teknik yang digunakan agar input yang diberikan ke AI model mendapatkan response yang terbaik. Sesi ini akan memberikan panduan bagaimana melakukan prompt engineering secara efektif dan berbagai tipsnya.",
-          "speaker": ""
+          "speaker": "Lintang Gilang"
         },
         {
           "id": "5",
           "time": "10.45 - 11.15",
           "title": "#3 Chat dengan dokumen internalmu menggunakan RAG",
           "description": "Penggunaan AI tidak akan bermanfaat banyak jika ia tidak bisa memahami data internal kita. Sesi ini akan menjelaskan implementasi dari Retrieval Augmented Generation (RAG) yang dapat digunakan agar AI memiliki konteks pemahaman sehingga kita dapat bertanya pada AI informasi yang ada pada data kita. Sumber data dapat berupa website, dokumen PDF, histori percakapan dan lain-lain.",
-          "speaker": ""
+          "speaker": "Jimmy"
         },
         {
           "id": "6",
@@ -68,14 +68,14 @@
           "time": "13.00 - 13.30",
           "title": "#4 Evaluasi LLM dengan game Street Fighter, siapa menang?",
           "description": "Memilih Large Language Model (LLM) untuk digunakan pada aplikasi GenAI kita kadang tidak mudah. Pada sesi ini akan dibandingkan beberapa LLM bagaimana mereka bermain game Street Fighter III. Beberapa kriteria yang menjadi pertimbangan adalah kecepatan, kecerdasan, dan cara beradaptasi.",
-          "speaker": ""
+          "speaker": "Pugar Jayanegara"
         },
         {
           "id": "9",
           "time": "13.35 - 14.05",
           "title": "#5 Membuat AI photobooth image generator",
           "description": "Membuat image dari sebuah text prompt memang mudah, namun untuk mendapatkan style dan hasil yang unik maka diperlukan custom model. Pada sesi ini akan ditunjukkan bagaimana membuat aplikasi photobooth memanfaatkan custom model Jugganaut XL, IP Adapter dan CodeFormer untuk menghasilkan karakter dinamis dari foto pengguna.",
-          "speaker": ""
+          "speaker": "Rio Astamal"
         },
         {
           "id": "10",
@@ -102,9 +102,9 @@
       "title": "Jakarta",
       "description": "Jakarta adalah ibukota Indonesia dan merupakan kota terbesar di Indonesia. Kota ini memiliki beragam tempat wisata, kuliner, dan pusat perbelanjaan yang menarik. Jakarta juga merupakan pusat pemerintahan, bisnis, dan pendidikan di Indonesia.",
       "registration_url": "https://bit.ly/genai24jkt",
-      "venue": "Segera",
-      "venue_link": "https://genaitour.dev/",
-      "venue_addr": "Hactiv8 Pondok Indah",
+      "venue": "Hactiv8 Pondok Indah",
+      "venue_link": "https://www.hacktiv8.com/location/pondok-indah",
+      "venue_addr": "Jl. Sultan Iskandar Muda No.7, Kebayoran Lama, Jakarta Selatan, DKI Jakarta 12240",
       "venue_maps": "https://maps.app.goo.gl/Q6FgBZv9mciFDXSP9",
       "session_list": [
         {
@@ -126,21 +126,21 @@
           "time": "09.35 - 10.05",
           "title": "#1 Panduan untuk generative AI di 2024",
           "description": "Sesi ini akan membahas generative AI (GenAI) dan role dari AI engineer dan bagaimana harusnya kita belajar skill AI engineering di 2024. Presentasi ini akan mengcover beberapa topik dasar seperti Foundation Model, Prompt Engineering, Retrieval Augmented Generation (RAG), Agents, dan Fine-tuning model.",
-          "speaker": ""
+          "speaker": "Riza Fahmi"
         },
         {
           "id": "4",
           "time": "10.10 - 10.40",
           "title": "#2 Prompt engineering master class",
           "description": "Prompt engineering merupakan sebuah teknik yang digunakan agar input yang diberikan ke AI model mendapatkan response yang terbaik. Sesi ini akan memberikan panduan bagaimana melakukan prompt engineering secara efektif dan berbagai tipsnya.",
-          "speaker": ""
+          "speaker": "Rio Astamal"
         },
         {
           "id": "5",
           "time": "10.45 - 11.15",
           "title": "#3 Chat dengan dokumen internalmu menggunakan RAG",
           "description": "Penggunaan AI tidak akan bermanfaat banyak jika ia tidak bisa memahami data internal kita. Sesi ini akan menjelaskan implementasi dari Retrieval Augmented Generation (RAG) yang dapat digunakan agar AI memiliki konteks pemahaman sehingga kita dapat bertanya pada AI informasi yang ada pada data kita. Sumber data dapat berupa website, dokumen PDF, histori percakapan dan lain-lain.",
-          "speaker": ""
+          "speaker": "GoFrendi"
         },
         {
           "id": "6",
@@ -159,16 +159,16 @@
         {
           "id": "8",
           "time": "13.00 - 13.30",
-          "title": "#4 Evaluasi LLM dengan game Street Fighter, siapa menang?",
-          "description": "Memilih Large Language Model (LLM) untuk digunakan pada aplikasi GenAI kita kadang tidak mudah. Pada sesi ini akan dibandingkan beberapa LLM bagaimana mereka bermain game Street Fighter III. Beberapa kriteria yang menjadi pertimbangan adalah kecepatan, kecerdasan, dan cara beradaptasi.",
-          "speaker": ""
+          "title": "#4 Membuat Serverless Speech-to-Text AI language translator",
+          "description": "Salah satu kelebihan beberapa Large Language Model (LLM) adalah kemampuan translasi antar bahasa yang baik. Sesi ini akan membahas bagaimana membangun aplikasi translasi AI antar bahasa dengan model speech-to-text. Aplikasi dibangun dengan konsep Serverless sehingga developer dapat fokus penuh ke logic utama aplikasi bukan infrastruktur.",
+          "speaker": "Mahdi Ridho"
         },
         {
           "id": "9",
           "time": "13.35 - 14.05",
-          "title": "#5 Membuat AI photobooth image generator",
-          "description": "Membuat image dari sebuah text prompt memang mudah, namun untuk mendapatkan style dan hasil yang unik maka diperlukan custom model. Pada sesi ini akan ditunjukkan bagaimana membuat aplikasi photobooth memanfaatkan custom model Jugganaut XL, IP Adapter dan CodeFormer untuk menghasilkan karakter dinamis dari foto pengguna.",
-          "speaker": ""
+          "title": "#5 Membuat AI Chatbot dengan Llama 3 8B di CPU, seberapa cepat?",
+          "description": "GPU dikenal mahal, bisakah kita memanfaatkan CPU untuk AI inference yang optimal? Sesi ini akan menjelaskan keuntungan dan tantangan ketika menjalankan AI inference di CPU berbasis intel dengan menggunakan OpenVino toolkit yang berjalan di atas Amazon EC2.",
+          "speaker": "Beny Ibrani"
         },
         {
           "id": "10",
@@ -187,7 +187,7 @@
       ]
     },
     {
-      "id": "20 Juli",
+      "id": "27 Juli",
       "confirmed": false,
       "hid": "accordion-open-heading-3",
       "bid": "accordion-open-body-3",
