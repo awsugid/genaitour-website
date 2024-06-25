@@ -159,7 +159,7 @@
         {
           "id": "8",
           "time": "13.00 - 13.30",
-          "title": "#4 Membuat Serverless Speech-to-Text AI language translator",
+          "title": "#4 Membuat serverless AI voice call translator",
           "description": "Salah satu kelebihan beberapa Large Language Model (LLM) adalah kemampuan translasi antar bahasa yang baik. Sesi ini akan membahas bagaimana membangun aplikasi translasi AI antar bahasa dengan model speech-to-text. Aplikasi dibangun dengan konsep Serverless sehingga developer dapat fokus penuh ke logic utama aplikasi bukan infrastruktur.",
           "speaker": "Mahdi Ridho"
         },
