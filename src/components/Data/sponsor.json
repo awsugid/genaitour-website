@@ -1,11 +1,6 @@
 [
   {
     "url": "/sponsors/logo-1.svg",
-    "alt": "Platinum Sponsor",
-    "tier": "Platinum"
-  },
-  {
-    "url": "/sponsors/logo-1.svg",
     "alt": "Gold Sponsor",
     "tier": "Gold"
   },
@@ -13,6 +8,11 @@
     "url": "/sponsors/armour_logo.jpg",
     "alt": "Armour Zero Logo",
     "tier": "Silver"
+  },
+  {
+    "url": "/sponsors/serverles_guru.png",
+    "alt": "Severles Guru",
+    "tier": "Platinum"
   },
   {
     "url": "/sponsors/IBBI_Logo.png",
