@@ -25,8 +25,13 @@
     "tier": "Silver"
   },
   {
-    "url": "/sponsors/logo-4.svg",
-    "alt": "Silver Sponsor",
+    "url": "/sponsors/twd_logo.png",
+    "alt": "Tech With Dany Logo",
+    "tier": "Silver"
+  },
+  {
+    "url": "/sponsors/binus_logo.png",
+    "alt": "Binus Logo",
     "tier": "Silver"
   }
 ]
