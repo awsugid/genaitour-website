@@ -118,7 +118,7 @@
           "id": "2",
           "time": "09.00 - 09.30",
           "title": "Pembukaan",
-          "description": "Pembukaan GenAI Tour Medan oleh panitia.",
+          "description": "Pembukaan GenAI Tour Jakarta oleh panitia.",
           "speaker": ""
         },
         {
@@ -211,7 +211,7 @@
           "id": "2",
           "time": "09.00 - 09.30",
           "title": "Pembukaan",
-          "description": "Pembukaan GenAI Tour Medan oleh panitia.",
+          "description": "Pembukaan GenAI Tour Bandung oleh panitia.",
           "speaker": ""
         },
         {
@@ -280,7 +280,7 @@
       ]
     },
     {
-      "id": "10 Agustus",
+      "id": "31 Agustus",
       "confirmed": false,
       "hid": "accordion-open-heading-4",
       "bid": "accordion-open-body-4",
@@ -298,7 +298,7 @@
       "description": "Kota yang dikenal dengan sebutan Kota Pahlawan. Surabaya memiliki berbagai macam tempat wisata, kuliner, dan kegiatan seru yang bisa dinikmati. Kota ini juga merupakan pusat bisnis dan perdagangan di Indonesia."
     },
     {
-      "id": "14 September",
+      "id": "21 September",
       "confirmed": false,
       "hid": "accordion-open-heading-6",
       "bid": "accordion-open-body-6",
