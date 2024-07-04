@@ -112,9 +112,17 @@
     {
       "title": "Infra Engineer",
       "name": "Andre Aliaman",
-      "description": "Infrastructure engineer saya selalu suka mengotomasi segalanya.",
+      "description": "Infrastructure engineer yang selalu suka mengotomasi segalanya.",
       "profile": "/speakers/andre.jpeg",
       "link": "https://www.linkedin.com/in/iilness/",
+      "cities": ["Bandung"]
+    },
+    {
+      "title": "Solutions Architect",
+      "name": "Veny Ginting",
+      "description": "Selalu menyukai solusi yang well-architected",
+      "profile": "/speakers/veny.jpeg",
+      "link": "https://www.linkedin.com/in/venycharnita/",
       "cities": ["Bandung"]
     }
   ]

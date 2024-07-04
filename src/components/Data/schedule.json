@@ -74,7 +74,7 @@
           "id": "9",
           "time": "13.35 - 14.05",
           "title": "#5 Membuat AI photobooth image generator",
-          "description": "Membuat image dari sebuah text prompt memang mudah, namun untuk mendapatkan style dan hasil yang unik maka diperlukan custom model. Pada sesi ini akan ditunjukkan bagaimana membuat aplikasi photobooth memanfaatkan custom model Jugganaut XL, IP Adapter dan CodeFormer untuk menghasilkan karakter dinamis dari foto pengguna.",
+          "description": "Membuat image dari sebuah text prompt memang mudah, namun untuk mendapatkan style dan hasil yang unik maka diperlukan custom model. Pada sesi ini akan ditunjukkan bagaimana membuat aplikasi photobooth memanfaatkan custom model JuggernautXL, IP Adapter dan CodeFormer untuk menghasilkan karakter dinamis dari foto pengguna.",
           "speaker": "Rio Astamal"
         },
         {
@@ -188,12 +188,17 @@
     },
     {
       "id": "27 Juli",
-      "confirmed": false,
+      "confirmed": true,
       "hid": "accordion-open-heading-3",
       "bid": "accordion-open-body-3",
       "target": "#accordion-open-body-3",
       "title": "Bandung",
       "description": "Bandung memiliki julukan Kota Kembang dan Kota Mode. Kota ini terkenal dengan keindahan alamnya, kuliner yang lezat, dan pusat perbelanjaan yang menarik. Bandung juga merupakan kota pendidikan dan budaya di Indonesia.",
+      "registration_url": "https://bit.ly/genai24bdg",
+      "venue": "Kampus BINUS",
+      "venue_link": "https://binus.ac.id/bandung/",
+      "venue_addr": "Paskal Hyper Square, Jl. Pasir Kaliki No.25-27, Bandung",
+      "venue_maps": "https://maps.app.goo.gl/QLXBjCeLNL3RtWh38",
       "session_list": [
         {
           "id": "1",
@@ -214,21 +219,21 @@
           "time": "09.35 - 10.05",
           "title": "#1 Panduan untuk generative AI di 2024",
           "description": "Sesi ini akan membahas generative AI (GenAI) dan role dari AI engineer dan bagaimana harusnya kita belajar skill AI engineering di 2024. Presentasi ini akan mengcover beberapa topik dasar seperti Foundation Model, Prompt Engineering, Retrieval Augmented Generation (RAG), Agents, dan Fine-tuning model.",
-          "speaker": ""
+          "speaker": "Veny Ginting"
         },
         {
           "id": "4",
           "time": "10.10 - 10.40",
           "title": "#2 Prompt engineering master class",
           "description": "Prompt engineering merupakan sebuah teknik yang digunakan agar input yang diberikan ke AI model mendapatkan response yang terbaik. Sesi ini akan memberikan panduan bagaimana melakukan prompt engineering secara efektif dan berbagai tipsnya.",
-          "speaker": ""
+          "speaker": "Rogers Dwiputra"
         },
         {
           "id": "5",
           "time": "10.45 - 11.15",
           "title": "#3 Chat dengan dokumen internalmu menggunakan RAG",
           "description": "Penggunaan AI tidak akan bermanfaat banyak jika ia tidak bisa memahami data internal kita. Sesi ini akan menjelaskan implementasi dari Retrieval Augmented Generation (RAG) yang dapat digunakan agar AI memiliki konteks pemahaman sehingga kita dapat bertanya pada AI informasi yang ada pada data kita. Sumber data dapat berupa website, dokumen PDF, histori percakapan dan lain-lain.",
-          "speaker": ""
+          "speaker": "Andre Aliaman"
         },
         {
           "id": "6",
@@ -249,14 +254,14 @@
           "time": "13.00 - 13.30",
           "title": "#4 Evaluasi LLM dengan game Street Fighter, siapa menang?",
           "description": "Memilih Large Language Model (LLM) untuk digunakan pada aplikasi GenAI kita kadang tidak mudah. Pada sesi ini akan dibandingkan beberapa LLM bagaimana mereka bermain game Street Fighter III. Beberapa kriteria yang menjadi pertimbangan adalah kecepatan, kecerdasan, dan cara beradaptasi.",
-          "speaker": ""
+          "speaker": "Dwi F. Denni"
         },
         {
           "id": "9",
           "time": "13.35 - 14.05",
           "title": "#5 Membuat AI photobooth image generator",
-          "description": "Membuat image dari sebuah text prompt memang mudah, namun untuk mendapatkan style dan hasil yang unik maka diperlukan custom model. Pada sesi ini akan ditunjukkan bagaimana membuat aplikasi photobooth memanfaatkan custom model Jugganaut XL, IP Adapter dan CodeFormer untuk menghasilkan karakter dinamis dari foto pengguna.",
-          "speaker": ""
+          "description": "Membuat image dari sebuah text prompt memang mudah, namun untuk mendapatkan style dan hasil yang unik maka diperlukan custom model. Pada sesi ini akan ditunjukkan bagaimana membuat aplikasi photobooth memanfaatkan custom model JuggernautXL, IP Adapter dan CodeFormer untuk menghasilkan karakter dinamis dari foto pengguna.",
+          "speaker": "Rio Astamal"
         },
         {
           "id": "10",
