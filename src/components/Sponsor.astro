@@ -55,22 +55,23 @@ import sponsors from "./Data/sponsor.json";
   <div>
     <h3 class="text-2xl font-bold bg-[#C0C0C0] py-2 pl-3 pr-16">Silver</h3>
     <div
-      class="grid-container grid-cols-2 gap-5 md:grid-cols-4 py-10 justify-center items-center"
+      class="grid grid-cols-2 gap-5 md:grid-cols-4 py-10 justify-center items-center"
     >
       {
         sponsors
           .filter((sponsor) => sponsor.tier === "Silver")
-          .map((sponsor, index, array) => (
-            <div
-              class={`flex justify-center items-center ${
-                array.length % 2 !== 0 && index === array.length - 1
-                  ? "full-width-center"
-                  : ""
-              }`}
-            >
-              <img src={sponsor.url} alt={sponsor.alt} class="max-h-[80px]" />
-            </div>
-          ))
+          .map((sponsor, index, array) => {
+            const isLastTwo = array.length > 4 && index >= array.length - 2;
+            return (
+              <div
+                class={`flex justify-center items-center ${
+                  isLastTwo ? "md:col-span-2" : ""
+                }`}
+              >
+                <img src={sponsor.url} alt={sponsor.alt} class="max-h-[80px]" />
+              </div>
+            );
+          })
       }
     </div>
   </div>
