@@ -124,6 +124,30 @@
       "profile": "/speakers/veny.jpeg",
       "link": "https://www.linkedin.com/in/venycharnita/",
       "cities": ["Bandung"]
+    },
+    {
+      "title": "Dosen UNU Yogyakarta",
+      "name": "Restiadi B. Taruno S.T, M.Eng",
+      "description": "-",
+      "profile": "/speakers/Restiadi.jpeg",
+      "link": "https://www.linkedin.com/in/restiadi-bayu-taruno-6aba7a83/",
+      "cities": ["Jogjakarta"]
+    },
+    {
+      "title": "Cloud Practioner",
+      "name": "Estu Fardani",
+      "description": "-",
+      "profile": "/speakers/Estu.jpg",
+      "link": "https://www.linkedin.com/in/tuanpembual/",
+      "cities": ["Jogjakarta"]
+    },
+    {
+      "title": "Data Science",
+      "name": "Arya Saputrawan",
+      "description": "-",
+      "profile": "/speakers/Arya.JPG",
+      "link": "https://www.linkedin.com/in/restiadi-bayu-taruno-6aba7a83/",
+      "cities": ["Jogjakarta"]
     }
   ]
 }
