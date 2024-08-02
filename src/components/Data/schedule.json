@@ -324,7 +324,7 @@
           "time": "10.45 - 11.15",
           "title": "#3 K8sGPT with Amazon Bedrock",
           "description": "Bayangkan kamu dapat mengkonfigurasi Kubernetes cluster dengan natural language. Di sesi ini kamu akan belajar bagaimana menggunakan genAI di Kubenetes dan Amazon Bedrock dengan bantuan K8sGPT.",
-          "speaker": "Andre Aliaman"
+          "speaker": "Estu Fardani"
         },
         {
           "id": "6",
@@ -371,7 +371,7 @@
       ]
     },
     {
-      "id": "24 Agustus",
+      "id": "14 September",
       "confirmed": false,
       "hid": "accordion-open-heading-5",
       "bid": "accordion-open-body-5",
