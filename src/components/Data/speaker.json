@@ -50,7 +50,7 @@
       "description": "Menjadi AWS Hero wanita pertama yang terpilih di Indonesia.",
       "profile": "/speakers/ananda.jpeg",
       "link": "https://www.linkedin.com/in/anandadwir/",
-      "cities": ["Jogjakarta"]
+      "cities": ["Yogyakarta"]
     },
 
     {
@@ -131,7 +131,7 @@
       "description": "-",
       "profile": "/speakers/Restiadi.jpeg",
       "link": "https://www.linkedin.com/in/restiadi-bayu-taruno-6aba7a83/",
-      "cities": ["Jogjakarta"]
+      "cities": ["Yogyakarta"]
     },
     {
       "title": "Cloud Practioner",
@@ -139,7 +139,7 @@
       "description": "-",
       "profile": "/speakers/Estu.jpg",
       "link": "https://www.linkedin.com/in/tuanpembual/",
-      "cities": ["Jogjakarta"]
+      "cities": ["Yogyakarta"]
     },
     {
       "title": "Data Science",
@@ -147,7 +147,7 @@
       "description": "-",
       "profile": "/speakers/Arya.JPG",
       "link": "https://www.linkedin.com/in/restiadi-bayu-taruno-6aba7a83/",
-      "cities": ["Jogjakarta"]
+      "cities": ["Yogyakarta"]
     }
   ]
 }
