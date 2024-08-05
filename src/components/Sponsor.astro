@@ -61,7 +61,7 @@ import sponsors from "./Data/sponsor.json";
         sponsors
           .filter((sponsor) => sponsor.tier === "Silver")
           .map((sponsor, index, array) => {
-            const isLastTwo = array.length > 4 && index >= array.length - 2;
+            const isLastTwo = array.length > 4 && index >= array.length - 1;
             return (
               <div
                 class={`flex justify-center items-center ${
