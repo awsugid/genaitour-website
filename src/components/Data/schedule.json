@@ -281,13 +281,14 @@
     },
     {
       "id": "31 Agustus",
-      "confirmed": false,
+      "confirmed": true,
       "hid": "accordion-open-heading-4",
       "bid": "accordion-open-body-4",
       "target": "#accordion-open-body-4",
       "title": "Yogyakarta",
       "description": "Yogyakarta memiliki keunikan budaya dan sejarah yang kaya. Kota ini terkenal dengan keraton, candi, dan kuliner tradisionalnya. Yogyakarta juga merupakan kota pelajar dan pariwisata di Indonesia.",
-      "venue": "The Forum, UNU Yogyakarta",
+      "registration_url": "https://bit.ly/genai24yogya",
+      "venue": "UNU Yogyakarta",
       "venue_addr": "Jl. Ringroad Barat, Dowangan, Banyuraden, Gamping, Sleman, Yogyakarta",
       "venue_maps": "https://maps.app.goo.gl/Agqz1D6u65S3FbY77",
       "session_list": [
