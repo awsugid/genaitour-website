@@ -6,7 +6,7 @@ import Layout from "../layouts/Layout.astro";
 <Layout title="PartyRock Hackathon">
   <main class="space-y-20">
     <Container>
-      <section class="text-left py-16">
+      <section class="text-left py-8">
         <h2 class="text-5xl font-bold mb-4">PartyRock Hackathon</h2>
         <p class="mb-8 text-xl">
           Pada hackathon ini kamu ditantang untuk membuat aplikasi GenAI 
@@ -15,48 +15,107 @@ import Layout from "../layouts/Layout.astro";
           Dengan PartyRock kamu bisa bereksperimen dengan Prompt Engineering dan 
           berbagai Foundation Model (FM) yang didukung oleh 
           <a class="font-bold underline" href="https://aws.amazon.com/bedrock/">Amazon Bedrock</a>
-          seperti Claude 3, Titan, Jurassic-2, Command, Llama 2 untuk membuat aplikasi tanpa perlu coding.
+          seperti Claude 3, Llama 3.1, Jurassic-2, Command, atau Titan untuk membuat aplikasi tanpa perlu coding.
         </p>
 
-        <p class="mb-8 text-xl">
+        <p class="mb-2 text-xl">
         Kamu <b>tidak perlu</b> akun AWS untuk menggunakan PartyRock. Dan saat ini PartyRock dapat digunakan
-        secara gratis. Kamu dapat melihat halaman <a class="font-bold underline" href="">Getting Started</a> 
+        secara gratis. Kamu dapat melihat halaman <a class="font-bold underline" href="https://partyrock.aws/guide/getStarted">Getting Started</a> 
         untuk panduan bagaimana mulai menggunakan PartyRock.
         </p>
-
-        <img
-          alt="Party Rock"
-          class="mx-auto mt-8"
-          height={300}
-          src="/party-rock.png"
-          style={{
-            aspectRatio: "400/300",
-            objectFit: "cover",
-          }}
-          width={400}
-        />
-        <button
-          type="submit"
-          class="w-full py-5 mt-10 bg-zinc-900 rounded-[14px] justify-center inline-flex"
-        >
-          <div class="text-center text-white text-xl font-normal leading-7">
-            Pendaftaran dibuka mulai 29 Juni 2024!
-          </div>
-        </button>
       </section>
 
-      <section class="px-8">
+      <section class="py-8">
+        <h3 class="text-3xl font-bold mb-8">Timeline</h3>
+        <p class="mb-8 text-xl">Beberapa tanggal penting dalam timeline PartyRock Hackathon yang perlu kamu tahu.</p>
+        <ul class="text-xl list-disc ml-8">
+          <li><span class="font-bold">17 Agustus 2024</span> - Submission aplikasi dibuka</li>
+          <li><span class="font-bold">20 September 2024</span> - Submission aplikasi ditutup</li>
+          <li><span class="font-bold">30 September 2024</span> - Pengumuman pemenang</li>
+        </ul>
+      </section>
+
+      <section class="py-8">
+        <h3 class="text-3xl font-bold mb-8">Hadiah</h3>
+        <p class="mb-8 text-xl">Dari semua aplikasi yang dikirim akan dipilih 3 terbaik. Yuk buat aplikasi yang keren dan kreatif!</p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div class="p-4 rounded-lg bg-lime">
+            <h4 class="font-bold text-xl mb-2">Pemenang #1</h4>
+            <p class="mb-4">
+              <img src="/prizes/huawei-tablet.jpg">
+            </p>
+            <p class="text-center"><a class="font-bold underline" href="https://consumer.huawei.com/id/tablets/matepad-se-11/">HUAWEI MatePad SE 11&quot; Tablet</a></p>
+          </div>
+          <div class="p-4 rounded-lg bg-lime">
+            <h4 class="font-bold text-xl mb-2">Pemenang #2</h4>
+            <p class="mb-4">
+              <img src="/prizes/huawei-monitor.png">
+            </p>
+            <p class="text-center"><a class="font-bold underline" href="https://consumer.huawei.com/id/monitors/display-23-8-inch/specs/">Monitor HUAWEI Display 23.8 inch</a></p>
+          </div>
+          <div class="p-4 rounded-lg bg-lime">
+            <h4 class="font-bold text-xl mb-2">Pemenang #3</h4>
+            <p class="mb-4">
+              <img src="/prizes/huawei-smartband.png">
+            </p>
+            <p class="text-center"><a class="font-bold underline" href="https://consumer.huawei.com/id/wearables/band9/">HUAWEI Smartband 9 (Couple)</a></p>
+          </div>
+
+          <div class="p-4 rounded-lg bg-lime">
+            <h4 class="font-bold text-xl mb-2">Semua pemenang</h4>
+            <p class="mb-4">
+              <img src="/prizes/partyrock-sweater.jpg">
+            </p>
+            <p class="text-center font-bold">Sweater PartyRock Hackathon!</p>
+          </div>
+
+          <div class="p-4 rounded-lg bg-lime">
+            <h4 class="font-bold text-xl mb-2">Semua pemenang</h4>
+            <p class="mb-4">
+              <img src="/prizes/partyrock-credit.jpg">
+            </p>
+            <p class="text-center font-bold">*) AWS Activate Credit USD $5000</p>
+          </div>
+
+          <div class="p-4 rounded-lg bg-lime">
+            <h4 class="font-bold text-xl mb-2">Peserta terpilih</h4>
+            <p class="mb-4">
+              <img src="/prizes/partyrock-25-credit.jpg">
+            </p>
+            <p class="text-center font-bold">**) AWS Credit USD $25 x 10</p>
+          </div>
+      </section>
+
+      <section class="py-2">
+        <p class="text-xl mb-4">*) Wajib menggunakan alamat email perusahaan atau start-up kamu saat melakukan klaim. Alamat email ini bisa berbeda dengan yang kamu gunakan untuk submit aplikasi.</p>
+        <p class="text-xl">**) Pada saat submit aplikasi, tulis email orang yang mereferensikan event hackathon ini kepada kamu. Jika kamu mengisi maka, kamu dan referral kamu berkesempatan untuk mendapatkan masing-masing AWS Credit USD $25. Total akan ada $25x10 AWS Credit yang akan dibagikan.</p>
+      </section>
+
+      <section class="py-8">
         <h3 class="text-3xl font-bold mb-8">Ketentuan</h3>
         <p class="mb-6 text-xl">Ini adalah ketentuan yang harus dipenuhi peserta.</p>
         <ul class="text-xl list-disc ml-8">
           <li>Mengirimkan link aplikasi PartyRock lewat submission form yang telah ditentukan</li>
+          <li>Aplikasi <span class="font-bold">WAJIB</span> dalam <span class="font-bold">Bahasa Indonesia</span>, baik itu berupa labeling dan output</li>
           <li>Peserta dapat mengirimkan lebih dari satu aplikasi</li>
           <li>Menjawab semua pertanyaan pada submission form dengan benar</li>
           <li>Peserta adalah warga negara Indonesia (WNI)</li>
         </ul>
+        <p class="mt-4 text-xl">Keputusan panitia bersifat final dan tidak bisa diganggu-gugat.</p>
       </section>
 
-      <section class="py-16 px-8">
+      <section class="py-8">
+        <a href="https://bit.ly/genai24-hackathon""><div
+          class="w-full py-5 mt-10 bg-zinc-900 rounded-[14px] justify-center inline-flex"
+        >
+          <div class="text-center text-white text-xl font-normal leading-7">
+            Submit Aplikasi
+          </div>
+        </div></a>
+      </section>
+
+      <section class="py-8">
         <h3 class="text-3xl font-bold mb-8">Sumber Inspirasi</h3>
         <p class="mb-6 text-xl">Untuk membantu kamu membuat aplikasi AI dengan PartyRock, 
         beberapa referensi berikut dapat kamu jadikan sebagai sumber inspirasi.</p>
@@ -74,29 +133,6 @@ import Layout from "../layouts/Layout.astro";
         </ul>
       </section>
 
-      <section class="py-16 px-8">
-        <h3 class="text-3xl font-bold mb-8">Hadiah</h3>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div class="p-4 rounded-lg bg-lime">
-            <h4 class="font-bold text-xl mb-2">Pemenang #1</h4>
-            <p class="mb-4">
-              [Segera diumumkan]
-            </p>
-          </div>
-          <div class="p-4 rounded-lg bg-lime">
-            <h4 class="font-bold text-xl mb-2">Pemenang #2</h4>
-            <p class="mb-4">
-              [Segera diumumkan]
-            </p>
-          </div>
-          <div class="p-4 rounded-lg bg-lime">
-            <h4 class="font-bold text-xl mb-2">Pemenang #3</h4>
-            <p class="mb-4">
-              [Segera diumumkan]
-            </p>
-          </div>
-        </div>
-      </section>
       <section class="bg-black text-white py-16 px-8 text-center">
         <h3 class="text-3xl font-bold mb-4">Ready to win?</h3>
         <p class="mb-8">
