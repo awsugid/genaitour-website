@@ -373,12 +373,96 @@
     },
     {
       "id": "14 September",
-      "confirmed": false,
+      "confirmed": true,
       "hid": "accordion-open-heading-5",
       "bid": "accordion-open-body-5",
       "target": "#accordion-open-body-5",
       "title": "Surabaya",
-      "description": "Kota yang dikenal dengan sebutan Kota Pahlawan. Surabaya memiliki berbagai macam tempat wisata, kuliner, dan kegiatan seru yang bisa dinikmati. Kota ini juga merupakan pusat bisnis dan perdagangan di Indonesia."
+      "description": "Kota yang dikenal dengan sebutan Kota Pahlawan. Surabaya memiliki berbagai macam tempat wisata, kuliner, dan kegiatan seru yang bisa dinikmati. Kota ini juga merupakan pusat bisnis dan perdagangan di Indonesia.",
+      "registration_url": "https://bit.ly/awsugsby-243",
+      "venue": "Institut Sains dan Teknologi Terpadu (ISTTS)",
+      "venue_link": "https://istts.ac.id/",
+      "venue_addr": "Jl. Ngagel Jaya Tengah No.73-77, Gubeng, Surabaya",
+      "venue_maps": "https://maps.app.goo.gl/PrBY1Gauv12N3WD76",
+      "session_list": [
+        {
+          "id": "1",
+          "time": "08.30 - 09.00",
+          "title": "Registrasi / Networking",
+          "description": "Registrasi peserta dibuka.",
+          "speaker": ""
+        },
+        {
+          "id": "2",
+          "time": "09.00 - 09.30",
+          "title": "Pembukaan",
+          "description": "Pembukaan GenAI Tour Bandung oleh panitia.",
+          "speaker": ""
+        },
+        {
+          "id": "3",
+          "time": "09.35 - 10.05",
+          "title": "#1 Panduan untuk generative AI di 2024",
+          "description": "Sesi ini akan membahas generative AI (GenAI) dan role dari AI engineer dan bagaimana harusnya kita belajar skill AI engineering di 2024. Presentasi ini akan mengcover beberapa topik dasar seperti Foundation Model, Prompt Engineering, Retrieval Augmented Generation (RAG), Agents, dan Fine-tuning model.",
+          "speaker": "Dr.Ir Esther Irawati"
+        },
+        {
+          "id": "4",
+          "time": "10.10 - 10.40",
+          "title": "#2 Prompt engineering master class",
+          "description": "Prompt engineering merupakan sebuah teknik yang digunakan agar input yang diberikan ke AI model mendapatkan response yang terbaik. Sesi ini akan memberikan panduan bagaimana melakukan prompt engineering secara efektif dan berbagai tipsnya.",
+          "speaker": "Mochammad Syafii"
+        },
+        {
+          "id": "5",
+          "time": "10.45 - 11.15",
+          "title": "#3 Chat dengan dokumen internalmu menggunakan RAG",
+          "description": "Penggunaan AI tidak akan bermanfaat banyak jika ia tidak bisa memahami data internal kita. Sesi ini akan menjelaskan implementasi dari Retrieval Augmented Generation (RAG) yang dapat digunakan agar AI memiliki konteks pemahaman sehingga kita dapat bertanya pada AI informasi yang ada pada data kita. Sumber data dapat berupa website, dokumen PDF, histori percakapan dan lain-lain.",
+          "speaker": "Dewi Oktaviani"
+        },
+        {
+          "id": "6",
+          "time": "11.20 - 11.50",
+          "title": "PartyRock challenge",
+          "description": "PartyRock.aws adalah layanan untuk membuat aplikasi AI tanpa koding. Peserta akan ditantang untuk membuat aplikasi unik dan menarik dalam rentang waktu 30 menit. Pemenang akan mendapatkan hadiah merchandise super menarik!",
+          "speaker": ""
+        },
+        {
+          "id": "7",
+          "time": "11.55 - 12.55",
+          "title": "Break makan siang",
+          "description": "Break 1 jam untuk makan siang dan networking.",
+          "speaker": ""
+        },
+        {
+          "id": "8",
+          "time": "13.00 - 13.30",
+          "title": "#4 Evaluasi LLM dengan game Street Fighter, siapa menang?",
+          "description": "Memilih Large Language Model (LLM) untuk digunakan pada aplikasi GenAI kita kadang tidak mudah. Pada sesi ini akan dibandingkan beberapa LLM bagaimana mereka bermain game Street Fighter III. Beberapa kriteria yang menjadi pertimbangan adalah kecepatan, kecerdasan, dan cara beradaptasi.",
+          "speaker": "Joan Santoso"
+        },
+        {
+          "id": "9",
+          "time": "13.35 - 14.05",
+          "title": "#5 Membuat AI photobooth image generator",
+          "description": "Membuat image dari sebuah text prompt memang mudah, namun untuk mendapatkan style dan hasil yang unik maka diperlukan custom model. Pada sesi ini akan ditunjukkan bagaimana membuat aplikasi photobooth memanfaatkan custom model JuggernautXL, IP Adapter dan CodeFormer untuk menghasilkan karakter dinamis dari foto pengguna.",
+          "speaker": "Rio Astamal"
+        },
+        {
+          "id": "10",
+          "time": "14.10 - 14.20",
+          "title": "Penutupan",
+          "description": "Sesi penutupan dan pemberian hadiah untuk pemenang PartyRock challenge.",
+          "speaker": ""
+        },
+        {
+          "id": "11",
+          "time": "14.25 - 16.25",
+          "title": "Workshop: Membuat aplikasi GenAI pertamamu",
+          "description": "Sesi workshop bagaimana membangun aplikasi GenAI menggunakan Amazon Bedrock. Akun AWS akan disediakan oleh panitia. Kuota terbatas, hanya peserta yang mendaftar dan terpilih yang dapat mengikuti workshop. Peserta diwajibkan membawa laptop sendiri.",
+          "speaker": ""
+        }
+      ]
     },
     {
       "id": "21 September",
