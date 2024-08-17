@@ -148,6 +148,38 @@
       "profile": "/speakers/arya-jogja.jpeg",
       "link": "https://www.linkedin.com/in/putu-arya-saputrawan-711402243/",
       "cities": ["Yogyakarta"]
+    },
+    {
+      "title": "Associate Professor",
+      "name": "Dr.Ir. Esther Irawati Setiawan",
+      "description": "Penggiat Machine Learning dan Cloud lebih dari satu dekade, dan aktif pada berbagai organisasi profesional",
+      "profile": "/speakers/esther.jpeg",
+      "link": "https://www.linkedin.com/in/esthersetiawan",
+      "cities": ["Surabaya"]
+    },
+    {
+      "title": "Data Engineer",
+      "name": "Dewi Oktaviani",
+      "description": "Data engineer yang tertarik mempelajari Gen AI",
+      "profile": "/speakers/dewi.jpeg",
+      "link": "https://www.linkedin.com/in/dewi-nurfitri-oktaviani-6b450b22",
+      "cities": ["Surabaya"]
+    },
+    {
+      "title": "Senior Engineering Manager",
+      "name": "Mochammad Syafii",
+      "description": "-",
+      "profile": "/speakers/syafii.jpeg",
+      "link": "http://www.linkedin.com/in/musyafii",
+      "cities": ["Surabaya"]
+    },
+    {
+      "title": "Associate Professor",
+      "name": "Joan Santoso",
+      "description": "-",
+      "profile": "/speakers/joan.jpeg",
+      "link": "https://www.linkedin.com/in/joan-santoso/",
+      "cities": ["Surabaya"]
     }
   ]
 }
