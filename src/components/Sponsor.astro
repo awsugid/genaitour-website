@@ -22,16 +22,14 @@ import sponsors from "./Data/sponsor.json";
   <!-- Platinum Sponsors -->
   <div>
     <h3 class="text-2xl font-bold bg-[#E5E4E2] py-2 pl-3 pr-16">Platinum</h3>
-    <div class="flex py-10 justify-center items-center">
-      {
-        sponsors
-          .filter((sponsor) => sponsor.tier === "Platinum")
-          .map((sponsor) => (
-            <div class="flex justify-center items-center">
-              <img src={sponsor.url} alt={sponsor.alt} class="w-[500px]" />
-            </div>
-          ))
-      }
+    <div class="py-10 justify-center items-center">
+        <div class="flex justify-center items-center">
+          <img src="/sponsors/serverles_guru.png" alt="Serverless Guru" />
+        </div>
+        
+        <div class="flex justify-center items-center">
+          <img src="/sponsors/istts.png" alt="ISTTS" style="max-width: 60%; width: 500px;" />
+        </div>
     </div>
   </div>
 
