@@ -466,13 +466,13 @@
     },
     {
       "id": "21 September",
-      "confirmed": false,
+      "confirmed": true,
       "hid": "accordion-open-heading-7",
       "bid": "accordion-open-body-7",
       "target": "#accordion-open-body-7",
       "title": "Bali",
       "description": "Pulau Dewata yang terkenal dengan keindahan alamnya. Bali memiliki berbagai macam tempat wisata, kuliner, dan kegiatan seru yang bisa dinikmati. Pulau ini juga merupakan destinasi wisata terpopuler di Indonesia.",
-      "registration_url": "#",
+      "registration_url": "https://bit.ly/genai24bali",
       "venue": "Primakara University",
       "venue_link": "https://primakara.ac.id/",
       "venue_addr": "Jl. Tukad Badung No.135, Renon, Denpasar, Bali",
@@ -511,7 +511,7 @@
           "time": "10.45 - 11.15",
           "title": "#3 Chat dengan dokumen internalmu menggunakan RAG",
           "description": "Penggunaan AI tidak akan bermanfaat banyak jika ia tidak bisa memahami data internal kita. Sesi ini akan menjelaskan implementasi dari Retrieval Augmented Generation (RAG) yang dapat digunakan agar AI memiliki konteks pemahaman sehingga kita dapat bertanya pada AI informasi yang ada pada data kita. Sumber data dapat berupa website, dokumen PDF, histori percakapan dan lain-lain.",
-          "speaker": ""
+          "speaker": "Purnaresa Yuliartanto"
         },
         {
           "id": "6",
@@ -532,14 +532,14 @@
           "time": "13.00 - 13.30",
           "title": "#4 Evaluasi LLM dengan game Street Fighter, siapa menang?",
           "description": "Memilih Large Language Model (LLM) untuk digunakan pada aplikasi GenAI kita kadang tidak mudah. Pada sesi ini akan dibandingkan beberapa LLM bagaimana mereka bermain game Street Fighter III. Beberapa kriteria yang menjadi pertimbangan adalah kecepatan, kecerdasan, dan cara beradaptasi.",
-          "speaker": ""
+          "speaker": "Fernandito"
         },
         {
           "id": "9",
           "time": "13.35 - 14.05",
           "title": "#5 Membuat AI photobooth image generator",
           "description": "Membuat image dari sebuah text prompt memang mudah, namun untuk mendapatkan style dan hasil yang unik maka diperlukan custom model. Pada sesi ini akan ditunjukkan bagaimana membuat aplikasi photobooth memanfaatkan custom model JuggernautXL, IP Adapter dan CodeFormer untuk menghasilkan karakter dinamis dari foto pengguna.",
-          "speaker": ""
+          "speaker": "Rio Astamal"
         },
         {
           "id": "10",
@@ -553,7 +553,7 @@
           "time": "14.25 - 16.25",
           "title": "Workshop: Membuat aplikasi GenAI pertamamu",
           "description": "Sesi workshop bagaimana membangun aplikasi GenAI menggunakan Amazon Bedrock. Akun AWS akan disediakan oleh panitia. Kuota terbatas, hanya peserta yang mendaftar dan terpilih yang dapat mengikuti workshop. Peserta diwajibkan membawa laptop sendiri.",
-          "speaker": ""
+          "speaker": "Yulius Darmawan"
         }
       ]
     },
