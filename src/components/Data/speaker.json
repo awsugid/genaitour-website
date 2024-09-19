@@ -180,6 +180,22 @@
       "profile": "/speakers/joan.jpeg",
       "link": "https://www.linkedin.com/in/joan-santoso/",
       "cities": ["Surabaya"]
+    },
+    {
+      "title": "Dekan Fakultas FTID",
+      "name": "Ni Made Satvika",
+      "description": "-",
+      "profile": "/speakers/satvika-primakara.jpeg",
+      "link": "https://www.linkedin.com/in/ni-made-satvika-iswari-7b99a81b5/",
+      "cities": ["Bali"]
+    },
+    {
+      "title": "Postgraduate Director",
+      "name": "Made Adi Paramartha",
+      "description": "-",
+      "profile": "/speakers/adi-primakara.jpeg",
+      "link": "https://www.linkedin.com/in/adiparamartha/",
+      "cities": ["Bali"]
     }
   ]
 }

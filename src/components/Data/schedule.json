@@ -495,14 +495,14 @@
         {
           "id": "3",
           "time": "09.35 - 10.05",
-          "title": "#1 Panduan untuk generative AI di 2024",
+          "title": "#1 Panduan untuk generative AI di 2024 - Adi Paramartha",
           "description": "Sesi ini akan membahas generative AI (GenAI) dan role dari AI engineer dan bagaimana harusnya kita belajar skill AI engineering di 2024. Presentasi ini akan mengcover beberapa topik dasar seperti Foundation Model, Prompt Engineering, Retrieval Augmented Generation (RAG), Agents, dan Fine-tuning model.",
           "speaker": ""
         },
         {
           "id": "4",
           "time": "10.10 - 10.40",
-          "title": "#2 Prompt engineering master class",
+          "title": "#2 Prompt engineering master class - Ni Made Satvika",
           "description": "Prompt engineering merupakan sebuah teknik yang digunakan agar input yang diberikan ke AI model mendapatkan response yang terbaik. Sesi ini akan memberikan panduan bagaimana melakukan prompt engineering secara efektif dan berbagai tipsnya.",
           "speaker": ""
         },
