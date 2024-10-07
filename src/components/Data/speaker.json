@@ -196,6 +196,38 @@
       "profile": "/speakers/adi-primakara.jpeg",
       "link": "https://www.linkedin.com/in/adiparamartha/",
       "cities": ["Bali"]
+    },
+    {
+      "title": "CTO Oke Garden",
+      "name": "Rizky Arlin",
+      "description": "-",
+      "profile": "/speakers/rizky-makassar.png",
+      "link": "https://www.linkedin.com/in/rizkyarlin/",
+      "cities": ["Makassar"]
+    },
+    {
+      "title": "Lead Software Engineer",
+      "name": "Rahmat H. Slamet",
+      "description": "-",
+      "profile": "/speakers/rahmat-makassar.jpeg",
+      "link": "https://www.linkedin.com/in/rahmadslamet",
+      "cities": ["Makassar"]
+    },
+    {
+      "title": "Fullstack Developer",
+      "name": "Aliem Arief",
+      "description": "-",
+      "profile": "/speakers/aliem-makassar.jpeg",
+      "link": "https://www.linkedin.com/in/aliem-arif-perkasa",
+      "cities": ["Makassar"]
+    },
+    {
+      "title": "Technical Lead",
+      "name": "Muhammad Aryandi",
+      "description": "-",
+      "profile": "/speakers/endi-makassar.jpeg",
+      "link": "https://www.linkedin.com/in/muh-aryandi",
+      "cities": ["Makassar"]
     }
   ]
 }
